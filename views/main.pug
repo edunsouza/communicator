@@ -1,0 +1,24 @@
+doctype html
+html(lang='pt-br')
+  head
+    meta(charset='utf-8')
+    title PLN
+    script(src='/jquery/jquery.min.js')
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    script(src='/bootstrap/js/bootstrap.min.js')
+  body
+  div(style='margin:100px;')
+    //- nav.navbar.navbar-static-top
+      .container
+        a.navbar-brand(href='/') Express HTML
+        ul.nav.navbar-nav
+          each i in links
+            li(class=(i==0) ? "active" : "")
+              a(href=i.url)= i.name
+    div(class='jumbotron' style='padding:40px;')
+      h1 Análise e Desenvolvimento de Sistemas
+        small.text-muted  - Eduardo Souza
+      p
+        em.h4 Análise de publicações em páginas comerciais no Facebook com Processamento de Linguagem Natural.
+      center
+        a.btn.btn-success.btn-lg.clearfix(href="/listar") Listar publicações
