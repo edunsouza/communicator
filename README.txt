@@ -1,1 +1,1 @@
-Commit inicial do projeto COMMUNICATOR
+Repositório do projeto de Processamento de Linguagem Natural.
