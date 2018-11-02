@@ -16,14 +16,13 @@ head
   link(href='/css/morris.css' rel='stylesheet')
   // Custom Fonts
   link(href='/css/font-awesome.min.css' rel='stylesheet' type='text/css')
-#wrapper
+#wrapper.bodyMain
   // Navigation
-  #page-wrapper(style='padding-top: 0%; background-color: rgb(221, 221, 221); min-height: 429px;')
+  #page-wrapper(style='padding-top: 0%; min-height: 429px;')
     .row
       .col-lg-12
-        h1.page-header Dashboard
-      // /.col-lg-12
-    // /.row
+        h1.well.text-primary
+          b Dashboard
     .row
       .col-lg-3.col-md-6
         .panel.panel-primary
@@ -41,7 +40,7 @@ head
                 i.fa.fa-arrow-circle-right
               .clearfix
       .col-lg-3.col-md-6
-        .panel.panel-green
+        .panel.panel-primary
           .panel-heading
             .row
               .col-xs-3
@@ -56,7 +55,7 @@ head
                 i.fa.fa-arrow-circle-right
               .clearfix
       .col-lg-3.col-md-6
-        .panel.panel-yellow
+        .panel.panel-primary
           .panel-heading
             .row
               .col-xs-3
@@ -71,7 +70,7 @@ head
                 i.fa.fa-arrow-circle-right
               .clearfix
       .col-lg-3.col-md-6
-        .panel.panel-red
+        .panel.panel-primary
           .panel-heading
             .row
               .col-xs-3

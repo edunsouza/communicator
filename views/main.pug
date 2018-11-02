@@ -1,19 +1,22 @@
+- var fb = "<div class='label label-primary'>Facebook</div>";
+- var tituloP1 = titulo.split("Facebook")[0] + fb
 doctype html
 html(lang='pt-br')
   head
     meta(charset='utf-8')
-    title TCC
-    script(src='/jquery/jquery.min.js')
-    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
-    script(src='/bootstrap/js/bootstrap.min.js')
-  body(style="padding-top: 0%; background-color: #ddd")
-  div(style='margin:100px;')
+    title=titulo
+    script(src='/js/jquery.min.js')
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    script(src='/js/bootstrap.min.js')
+    //- customizado
+    link(rel='stylesheet', href='/css/customizado.css')
+  body.bodyMain
+  .marginGeral
     center
-      div(class='jumbotron' style='padding:140px;')
-        br
-        h1(style="margin-bottom: 4%") Análise e Desenvolvimento de Sistemas
-          small.text-muted  - Eduardo Souza
-        em.h4 Análise de publicações em páginas comerciais no Facebook com Processamento de Linguagem Natural.
+      .jumbotron
+        h1.titulo.well.well-lg !{tituloP1}
+        small.text-muted=autor
         p
+          em=curso
         center
-          a.btn.btn-success.btn-lg.clearfix(href="/listar" style="margin-top: 4%") Listar publicações
+          a.btn.btn-primary.btn-lg.clearfix(href=btnListar.link)=btnListar.label

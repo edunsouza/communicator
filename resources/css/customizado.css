@@ -1,0 +1,15 @@
+.marginTopBottom {
+    margin: 1% 0% 1% 0%;
+}
+.marginGeral {
+    margin: 100px;
+}
+.paddingGeral {
+    padding: 30px;
+}
+.bodyMain {
+    background-color: #f5f5f5
+}
+.titulo {
+    font-size: 35px !important;
+}
