@@ -123,7 +123,6 @@ var avaliacoes = [
     'Não funciona',
     'Satisfatório',
     'Otimo',
-    'welker123',
     'mara',
     'Adoro',
     'Aplicativo bom, mas poderia ter a opção de fazer transferência de conta poupança para conta corrente em finais de semana.. O aplicativo diz que sábado ou domingo não é dia útil para transações...',
@@ -1243,6 +1242,7 @@ var avaliacoes = [
     'Tento abrir o cadastro meu CEP não estar aceitando',
     'Porque vc nao aceita aqui em pernambuco na cidade Pombos'
 ];
+
 avaliacoes.forEach(x => {
     console.log(x);
 });
