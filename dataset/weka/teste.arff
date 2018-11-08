@@ -1,0 +1,47 @@
+
+@relation classify-sentiment
+
+@attribute text string
+@attribute class {negativo,positivo,neutro}
+
+@data
+
+'como acesso a minha conta salário pelo aplicativo',?
+'bem explicado',?
+'bom dia é muito bom, parabéns',?
+'é aonde tenho apoio quando presciso',?
+'é muito boa a administração',?
+'excelente projeto 👏👏👏',?
+'legal interessante',?
+'linda',?
+'melhor cooperativa do mundo',?
+'milagre não existe',?
+'muito bom mesmo',?
+'muito legal',?
+'não preciso sair de casa para enfrentar trânsito e filas é 10',?
+'nosso aplicativo é top',?
+'obrigado',?
+'os benefícios são muitos',?
+'parabens ao sicred',?
+'parabéns',?
+'pega troxa',?
+'prazer trabalhar com um banco que está sempre ao nosso lado',?
+'que honra participar desse projeto incrivel',?
+'sicredi é show',?
+'sicredi ok',?
+'só alegria',?
+'sou sicredi não sei quantos anos, mas para sair de lá só morta',?
+'tadinho dos concorrentes',?
+'trabalho com sicredi a 6 anos',?
+'vou abrir uma conta',?
+'banco é banco, o lucro é só deles',?
+'e devem cobrar juros',?
+'essa pessoa só pode estar de deboche com a minha cara',?
+'estou com problema para acessar o aplicativo, esta aparecendo senha inválida',?
+'muita insatisfação',?
+'não adiantou ter enviado merda de email algum',?
+'não se iludam',?
+'não, eu não acho seguro',?
+'passa a data, não descontam com dinheiro na conta e te ligam cobrando né',?
+'queria muito poder estar sendo ajudado nessa situação',?
+'seu slogan deveria ser: eu quero ser dono do que é seu',?

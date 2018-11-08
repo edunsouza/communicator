@@ -1,0 +1,1976 @@
+
+@relation classify-sentiment
+
+@attribute text string
+@attribute class {negativo,positivo,neutro}
+
+@data
+
+':(',negativo
+':/',negativo
+'-1, fui na agência e mesmo la não resolveram o problema',negativo
+'👎 ruim',negativo
+'👎',negativo
+'a atualização fez o aplicativo parar',negativo
+'a cada atualização só piora',negativo
+'a cada nova operação que se deseja realizar ele realiza um carregamento, isso deveria ser corrigido',negativo
+'a câmera não lê o código de barras',negativo
+'a forma como são apresentados é muito confuso',negativo
+'a forma é muito confusa',negativo
+'a gente faz uma compra hoje e vai aparecer na fatura muitos dias depois',negativo
+'a mesma conta que este não consegue ler, com outro lê na primeira tentativa',negativo
+'a minha só negada',negativo
+'a opção de enviar não funciona',negativo
+'a opção do cartão de crédito deveria ser melhor',negativo
+'a senha para caixa eletrônico não é aceita, tento com a chave também não aceita',negativo
+'a versão anterior ao menos abria',negativo
+'a versão antiga era muito clara e fácil de mexer,a de agora nao e boa',negativo
+'abri a conta a 2 semanas nao me retornam pra falar nada o app paralizou nao aparece nada nem sei se me aprovaram travou o app afff',negativo
+'abro o aplicativo na plystore e ele diz que já está atualizado',negativo
+'acabei de atualizar e agora não abre, da erro de conexão',negativo
+'acabei de atualizar e agora não abre',negativo
+'achei que era ruim, mas é bem bom',negativo
+'achei que era ruim, mas é pior',negativo
+'achei que era ruim, mas me apavorei',negativo
+'achei que o app do bb era ruim, mas me apavorei ao usar o do sicredi',negativo
+'acho bem ruim não poder consultar o limite do meu cartão de crédito pelo app',negativo
+'acho bem ruim não poder consultar',negativo
+'acho bem ruim',negativo
+'aconteceu na atualização que não consigo mais usar',negativo
+'adicionar ao lançamentos futuros a data/valor de empréstimos realizados por exemplo',negativo
+'adoro o sicredi mas fico triste com isso',negativo
+'aff',negativo
+'agora aparece o espaço para senha, digito ela, mas não entra na conta',negativo
+'agora cada vez que formato meu celular tenho que ir até o sicredi pegar um token, isso é pessimo deem um jeito nisso',negativo
+'agora cada vez que formato meu celular tenho que ir até o sicredi pegar um token',negativo
+'agora com essa nova atualização nem se quer consigo ver o meu saldo',negativo
+'agora consigo digitar a senha..mas não está acessando o app',negativo
+'agora já faz tempo que não funciona',negativo
+'agora não abre, da erro de conexão',negativo
+'agora nâo está aceitando que eu faça transferências para outro banco, nem mesmo da minha poupança para minha conta corrente',negativo
+'agora nem acessar a conta consigo mais',negativo
+'agora parou de funcionar',negativo
+'agora terei que usar de outro',negativo
+'agora terei que usar o app de outro banco',negativo
+'aí começa de novo, já ficou chato',negativo
+'aí vou na agência minha gerente de conta libera',negativo
+'ainda aparece que nao foi paga',negativo
+'ainda continua lento',negativo
+'ainda falta muita funcionalidade, como por exemplo, mostrar onde foi realizada a compra no débito, fazer recarga de celular, entre outros',negativo
+'ainda falta muita funcionalidade',negativo
+'ainda faltam muitos recursos',negativo
+'ainda não entendi o motivo da retirada',negativo
+'ainda não entendi o motivo',negativo
+'além de limite flexível e troca de senha',negativo
+'além de ter ficado péssimo com as últimas atualizações, tem poucos recursos',negativo
+'algo que deveria facilitar meus dias, só está dando dor de cabeça',negativo
+'alguém pode me ajudar',negativo
+'algumas demoram dias para aparecer',negativo
+'alguns bugs e falta de mais recursos',negativo
+'alguns bugs',negativo
+'antes fosse ruim, pois é horrível',negativo
+'ao acessar o app trava e cai',negativo
+'aparece mas da um erro',negativo
+'aparece meu nome quando conecta mais embaixo pede uma senha, que senha é essa alguem pode me ajudar',negativo
+'aparece no aplicativo mas da um erro',negativo
+'aparece o item, mas não aparece a data',negativo
+'aparece senha inválida',negativo
+'aparece um aviso senha bloqueada',negativo
+'aparece um aviso senha bloqueada',negativo
+'aparece um, mas não aparece outro',negativo
+'aparece uma mensagem dizendo que ocorreu um erro inesperado, tente novamente mais tarde',negativo
+'apenas consigo consultar',negativo
+'apenas uma observação para possível correção',negativo
+'aplicativo após atualizado não funciona mais no meu celular',negativo
+'aplicativo bom, mas poderia ter a opção de fazer transferência de conta poupança para conta corrente em finais de semana',negativo
+'aplicativo bom, porém tranca muito',negativo
+'aplicativo de difícil acesso',negativo
+'aplicativo falhando',negativo
+'aplicativo lento, com muitos erros e bugs',negativo
+'aplicativo lento, quem tem internet ruim sofre',negativo
+'aplicativo lento',negativo
+'aplicativo limitado',negativo
+'aplicativo muito lento, trava demais',negativo
+'aplicativo não funciona após a última atualização',negativo
+'aplicativo problemático',negativo
+'aplicativo ruim',negativo
+'aplicativo simplesmente não funciona, não carrega saldo da conta, extrato, não faz transferência',negativo
+'após a atualização app não abre',negativo
+'após a atualização do app, não consigo entrar na conta',negativo
+'após a atualização do app, não consigo logar',negativo
+'após a instalação não aparece os itens demonstrados não imagens do app',negativo
+'após a última atualização parou tudo',negativo
+'após a última atualização pra android não consegue abrir para após a senha',negativo
+'após atualização do app, não consigo entrar',negativo
+'após atualização do app, não consigo mais colocar a senha para entrar na conta',negativo
+'após digitar a senha não acessa',negativo
+'após digitar a senha não loga/entra/acessa',negativo
+'após esta atualização, campo da senha sumiu, o app não abre',negativo
+'após instalação não abre para digitar senha númerica',negativo
+'app complicado, tá dizendo que o app não funciona em dispositivos root sendo que nein root meu aparelho tem chatoo isso',negativo
+'app é lento demais',negativo
+'app é muito fraco',negativo
+'app extremamente lento para realizar as operações, precisam buscar a mesma tecnologia de outros bancos',negativo
+'app falta agilidade na atualização das transações, demora muito',negativo
+'app faz o q promete mas único problema é q demora pra entrar os gastos com o crédito',negativo
+'app faz o q promete',negativo
+'app limitado',negativo
+'app não abre mais',negativo
+'app não abre',negativo
+'app nao esta funcionado..lamentável',negativo
+'app não está liberado a opção, e melhor da uma melhorada',negativo
+'app não funciona não tem espaço digitar senha é da erro',negativo
+'app não pede senha pra entrar na conta e já consta senha inválida',negativo
+'app péssimo',negativo
+'app precisa melhorar',negativo
+'app ruim, não é auto explicativo',negativo
+'app ruim',negativo
+'app tá péssimo',negativo
+'app tranca ao abrir',negativo
+'app trava após a instalação e quando reabro e digito meus dados, ele não sai da tela inicial',negativo
+'app trava',negativo
+'apresenta problemas em varias telas',negativo
+'arruma isso aí pra gente',negativo
+'arruma isso aí',negativo
+'arruma logo isso',negativo
+'arrumem esse problema por favor',negativo
+'arrumem isso logo não sei o que está acontecendo e preciso acessá com urgência minha conta 😡',negativo
+'arrumem isso pf',negativo
+'arrumem por favor',negativo
+'arrumem por favor',negativo
+'as comprar realizadas não são monitoradas em tempo real',negativo
+'as compras nao cai na hr',negativo
+'as compras no cartão de crédito não é em tempo real',negativo
+'as operações são absolutamente limitadas',negativo
+'as vezes aparece uns erros, mas nada como uma atualização não possa resolver',negativo
+'as vezes aparece uns erros',negativo
+'as vezes demora para atualisar movimentos na conta e compras no cartao',negativo
+'as vezes demora',negativo
+'assim como várias reclamações de usuários que li abaixo, o meu aplicativo tb não abre',negativo
+'assim que consertarem o aplicativo mudarei minha opinião',negativo
+'até agora meu problema não foi resolvido',negativo
+'até agora não consegui descobrir aonde que mostra as minhas compras no cartão',negativo
+'até agora não consegui descobrir',negativo
+'atenção zero',negativo
+'atendimento muito ruim',negativo
+'atualização deficiente, não acompanha transações reais',negativo
+'atualização deficiente',negativo
+'atualizar em tempo real o limite e compras gastas, assim como a projeção do parcelado para os próximos meses',negativo
+'atualizei e nunca mais consegui entrar na minha conta',negativo
+'atualizei o meu app e não consigo fazer pagamentos',negativo
+'atualizo e não funcionou mais desde dia 23 agosto',negativo
+'baixei de nv e nada',negativo
+'baixei más aperece sistema indisponível',negativo
+'baixei muitas vezes e nunca funcionou sempre da erro no login nunca aceita a agencia',negativo
+'baixei o app fiz tudo certinho mas na hora e mandar as fotos não entra poxa',negativo
+'banco péssimo',negativo
+'boa tarde alguem sabe m dizer se existe uma opcao nesse app para conta salario, pois nao estou conseguindo',negativo
+'bom app mas não consigo acompanhar os gastos do cartão de crédito',negativo
+'bom app porém podia haver opção de deixar 2 contas cadastradas e salvas, na tela inicial',negativo
+'bom mas não consigo',negativo
+'bom mas não pode melhorar',negativo
+'bom so q tem q ficar atualizando direto',negativo
+'bom, ainda precisa melhorar',negativo
+'botão de exportar em planilha no detalhamento do cartão, não está funcionando',negativo
+'bug é contínuo',negativo
+'bugs demais',negativo
+'bugs',negativo
+'cada nova atualização o token para de funcionar e eu preciso ir até a agência para pedir para corrigir isso',negativo
+'cada nova atualização para de funcionar',negativo
+'cada vez que atualiza desabilita meu token ou da conta física ou da jurídica',negativo
+'cadê a segurança',negativo
+'cai muito',negativo
+'cancelei minha conta, estou só esperando encerrar',negativo
+'cancelei minha conta',negativo
+'cansei de desinstalar e fui até o banco e não consigo de nenhuma maneira',negativo
+'carrega carrega e n sai do logo do sicredi',negativo
+'cartão de crédito precisa melhorar trava muito e n tem como consultar cartão de crédito',negativo
+'chega a ser cômico',negativo
+'chega ficar dias sem ser atualizado',negativo
+'cheio de coisas desnecessárias sempre atrapalhando',negativo
+'cheio de coisas desnecessárias',negativo
+'clico no botão entra mas ele não da sinal algum',negativo
+'coisa simples nao tem',negativo
+'coisa simples que falta',negativo
+'coisa simples que outros aplicativos possuem',negativo
+'colabora aí',negativo
+'colocar opção de visualização da conta capital',negativo
+'coloco a senha e não vai adiante',negativo
+'com a última atualização não estou conseguindo acessar',negativo
+'com esta atualização o aplicativo ficou horrível',negativo
+'com tantas datas para fazer a atualização, deixam dar este problema justo agora',negativo
+'comandos confusos e repetitivos',negativo
+'comandos confusos',negativo
+'comandos repetitivos',negativo
+'como usar um aplicativo assim',negativo
+'complicado',negativo
+'continua o aviso de falha na conectividade, mas minha internet está funcionando',negativo
+'continua uma falta de criatividade',negativo
+'corrijam esses erros',negativo
+'corrijam isso por favor',negativo
+'corrijam o maos rapido possível, por favor',negativo
+'corrijam urgentemente',negativo
+'cria transtorno de ir na agência desbloquear',negativo
+'crítica: estranho usar cartão débito, quando vc olha fatura no app, nunca aparece o nome do estabelecimento que vc comprou',negativo
+'critica: não estou conseguindo acessar o app',negativo
+'dá dor de cabeça',negativo
+'da erro de conexão',negativo
+'da erro no sistema',negativo
+'dá pra melhorar um pouquinho',negativo
+'da pra melhorar',negativo
+'da problema demais',negativo
+'da uma mensagem dizendo ocorreu um erro inesperado, tente novamente mais tarde',negativo
+'dá unidade de atendimento inválida',negativo
+'dando erros direto',negativo
+'de um tempo pra ca nao consigo fazer pagamentos',negativo
+'decepcionado',negativo
+'deem um jeito nisso',negativo
+'dei cinco estrelas mas precisa melhorar',negativo
+'deixa a desejar em relação ao monitoramento',negativo
+'deixam dar este problema justo agora',negativo
+'demais nao carrega os dados',negativo
+'demora dias para atualizar, sem falar que quando paga a fatura demora muito para liberar o credito',negativo
+'demora dias para atualizar',negativo
+'demora horas',negativo
+'demora muito para liberar',negativo
+'demora muito',negativo
+'demora muito',negativo
+'demora muito',negativo
+'demora para atualizar',negativo
+'demora pra abrir e fica piscando várias vezes até abrir',negativo
+'demora pra abrir',negativo
+'demora pra atualizar as informações de saldo',negativo
+'demora pra carregar',negativo
+'demorou horas',negativo
+'demorou horas',negativo
+'demorou um pouco mais foi aprovado e com limite inicial de 500 reais',negativo
+'dependia do app',negativo
+'depois da atualização de ontem não abre mais no meu celular',negativo
+'depois da atualização do app, não consigo fazer login',negativo
+'depois da atualização ele não entra mais',negativo
+'depois da atualização não aparece pra por a senha, por favor verifica o que está acontecendo',negativo
+'depois da atualização o aplicativo nao funciona',negativo
+'depois da atualização parou de funcionar',negativo
+'depois da atualização sem senha ele não funciona mais',negativo
+'depois da nova atualização, o app ficou péssimo',negativo
+'depois da terceira tentativa o app é bloqueado',negativo
+'depois da última atualização está um verdadeiro lixo, não abre',negativo
+'depois da última atualização não consegui mais acessar',negativo
+'depois da última atualização não consigo mais acessar',negativo
+'depois da última atualização não consigo mais fazer pesquisas',negativo
+'depois da última atualização não consigo mais pagar meus boletos',negativo
+'depois da última atualização o app ficou mais exposto a insegurança, não solicita mais senha para transferências, cada vez pior',negativo
+'depois da última atualização o app não funciona mais',negativo
+'depois da última atualização o leitor de código de barras não está funcionando',negativo
+'depois da ultima atualização, ao realizar uma transação ele diz que senha token esta errada mesmo nao precisando digitar a senha',negativo
+'depois da última atualização, sumiu uma opção',negativo
+'depois das últimas atualizações está péssimo',negativo
+'depois de atualizar não tem mais a opção que tinha',negativo
+'depois de digitar a senha não loga',negativo
+'depois dessa atualização ficou um lixo',negativo
+'depois dessa atualização não consigo acessar o app, ficando menos seguro já que a senha está junto no app',negativo
+'depois dessa atualização o campo da senha sumiu, já reinstalei várias vezes e não corrigiu o erro',negativo
+'depois dessa última atualização também não estou conseguindo acessar',negativo
+'depois desta última atualização o app demonstrou instabilidade',negativo
+'depois q digita a senha de acesso o programa fecha sozinho',negativo
+'depois que atualizei ele não aparece o campo para colocar a senha',negativo
+'depois que atualizou sumiu o campo da senha',negativo
+'depósito apenas por boleto e demora 5 dias para creditar',negativo
+'desculpa desabafar aqui',negativo
+'desde a ultima atualização o aplicativo não abre mais, o que está acontecendo',negativo
+'desde ontem pede atualização e não',negativo
+'desde que atualizou sumiu o campo senha não consigo usar também',negativo
+'desde que baixei o app nunca consegui efetuar nenhum pagamento só o saldo',negativo
+'desde sexta feira pra cá meu app não funciona direito',negativo
+'desinstalei após instalar novamente não tem opção de entrar com digital',negativo
+'desinstalei o aplicativo e instalei e nada',negativo
+'desinstalei o aplicativo e instalei novamente por umas 3 vezes e nada',negativo
+'desliguei e nada de funcionar',negativo
+'detestei coloco meus dados e tudo mais e não conecta com a administradora do cartão',negativo
+'deveria aceitar depósito nos caixas eletrônicos, ou agências',negativo
+'deveria atualizar em tempo real',negativo
+'deveria constar no app a opção de adiantar parcelas do cartão, presente em diversos outros apps',negativo
+'deveria explicar melhor como ter acesso ao aplicativo pela site do sicredi, pois não acho como fazer no site',negativo
+'deveria explicar melhor pelo site',negativo
+'deveria ser mais rápido',negativo
+'deveria ser o primeiro critério ou ter algum aviso sobre as regiões que têm disponibilidade da conta',negativo
+'deveria ser simples',negativo
+'deveria ter a função para consultar boletos',negativo
+'deveria ter a função para consultar ou gerar boletos de antecipação de parcelas de consórcio',negativo
+'deveria ter uma opção de filtrar os lançamentos do cartão por número de cartão, caso tenha mais de um cartão',negativo
+'dificulta minha vida',negativo
+'dificultam demais',negativo
+'digitar a senha não entra',negativo
+'dígito a senha e fica rodando e não entra',negativo
+'digito a senha, clico em entrar e nada acontece',negativo
+'digito minha senha e não consigo acessar minha conta',negativo
+'direto fica travando e pedindo atualização',negativo
+'dispositivo de segurança não liberado',negativo
+'diz a mensagem para verificar a conexão com a internet mas o sinal de internet no momento está excelente',negativo
+'diz para verificar a conexão com a internet',negativo
+'diz que tá indisponível tentar mais tarde',negativo
+'diz servidor não encontrado',negativo
+'do jeito que está, é um dos piores',negativo
+'do nada simplesmente parou de funcionar, bem na hora em que mais precisei ele me deixou na mão',negativo
+'dos 3 é o pior',negativo
+'dou 1 estrela',negativo
+'dps da nova att ficou lento o app',negativo
+'e agora entro no app pede pra fazer tudo denovo e ainda dá erro',negativo
+'e ao atualizar ainda bloqueia a senha',negativo
+'e aparece uma mensagem de erro',negativo
+'e atualizar mais rápido',negativo
+'é bom mais não consigo acessar minha conta da usuário não cadastrado',negativo
+'é bom porém precisa melhor bastante',negativo
+'é bom, mais sempre dá pra melhorar um pouquinho',negativo
+'é dor na cabeça',negativo
+'é imperfeito',negativo
+'é impossível usar',negativo
+'é insatisfatório',negativo
+'e notei um pouco de lentidão na animação do carregamento do aplicativo',negativo
+'é o pior app comparando aos do bb e do bradesco',negativo
+'é o pior app comparando aos outros',negativo
+'é o pior',negativo
+'é para facilitar a vida do cliente, mas atrapalha',negativo
+'é para facilitar a vida do cliente, mas não facilita',negativo
+'é para facilitar a vida do cliente, neste caso não resolve',negativo
+'e pessima',negativo
+'e péssimo não tem crédito nenhum só despesas com esse app',negativo
+'é seguro, rápido, porém tem quer atualizar cada pouco',negativo
+'é um pouco confuso de início mas acredito que seja devido a ter muitas funcionalidades',negativo
+'é um pouco confuso de início, mas acredito que seja devido a ter muitas funcionalidades',negativo
+'é um pouco confuso de início',negativo
+'é um problema',negativo
+'é uma crítica',negativo
+'efetuei o pagamento da fatura e nem isso aparece',negativo
+'ei vcs podiam fazer um extrato bem mais detalhado tipo tudo separado certinho se fizerem isso agradeço',negativo
+'ei vcs podiam fazer um extrato mais detalhado',negativo
+'eii pq num ta liberado na parte do ceará esse cartao de crédito',negativo
+'ele é bom porem n abre mais ja faz quatro dias estou bem chateada com essa situação',negativo
+'ele é muito ruim',negativo
+'ele era muito bom mais de alguns dias pra cá não abre ,não importa o q vc faça ele não funciona mais',negativo
+'ele estava muito bom',negativo
+'ele me auxilia muito, arruma isso aí pra gente',negativo
+'ele não sai da tela inicial',negativo
+'ele não sai da tela',negativo
+'ele não sai disso',negativo
+'ele simplesmente não funciona mais, e ninguém consegue resolver isso',negativo
+'ele simplesmente não funciona',negativo
+'ele tenta e nao vai',negativo
+'ele trava e não abre',negativo
+'ele trava no momento de digitar minha senha e não abre',negativo
+'em menos de mês tenho q atualizar',negativo
+'em poucos dias foram descontados',negativo
+'em uma conta onde a agilidade é o principal argumento, esse tempo é inadmissível',negativo
+'entre todos os aplicativos q tenho, é o único que me irrita: lento demais e confuso para quem, como eu, não entendo muito de ti',negativo
+'entre todos os aplicativos q tenho, é o único que me irrita',negativo
+'entrei em contato com os demais telefones e até na agência fui e não foi resolvido o problema',negativo
+'era excelente mas fui obrigado a vir pra esse',negativo
+'era melhor quando tinha apenas a assinatura eletronica',negativo
+'era pra ser simples',negativo
+'era um ótimo app mas agora não funciona mais',negativo
+'erro corrigido,ao selecionar opção crédito -> simular / pagar',negativo
+'erro de conexão e não acessa a conta',negativo
+'erro de conexão',negativo
+'erro em mais de 60% das vezes que tento usar esse app',negativo
+'erro no aplicativo',negativo
+'erro quando tento usar esse app',negativo
+'erros após atualização, não abre mais',negativo
+'espero melhorias',negativo
+'espero que mudem isso o quanto antes',negativo
+'essa última atualização fez com que a minha conta não abrisse',negativo
+'essa última versão não está solicitando nenhuma senha para pagamento, transferência ou qualquer outra transação',negativo
+'essas novas atualizações ficaram muito ruins',negativo
+'esse app é muito escroto',negativo
+'esse app é muito fraquinho',negativo
+'esse app é muito lixinho',negativo
+'esse app é muito lixo',negativo
+'esse app é muito pobre',negativo
+'esse app é muito podre',negativo
+'esse brilho intermitente da tela do celular enquanto vc usa o app no android n é legal',negativo
+'esse é um dos motivos pelo qual estou usando cada vez menos',negativo
+'esse negócio de usar código para sacar sem cartão até ajuda, mas acho que o sicredi tá meio atrasado',negativo
+'está acontecendo alguns erros',negativo
+'está dando inválido',negativo
+'está demorando de mais pra atualizar as faturas do cartão mesmo com o débito da fatura',negativo
+'esta em constante melhoria, tem coisas para melhorar mais já percebi muita evolução deste quando comecei a utilizar',negativo
+'esta faltando muitas opções no app',negativo
+'esta foi a única vez que tive algum problema, gosto do app (:',negativo
+'esta foi a única vez que tive algum problema',negativo
+'está pedindo para atualizar, no qual não existe essa opção',negativo
+'está prejudicando a minha vida, preciso providência urgente',negativo
+'está ruim a atualização',negativo
+'esta última att me deixou na mão',negativo
+'estamos com problemas',negativo
+'estao me cobrando taxas',negativo
+'estão me cobrando',negativo
+'estava bom até ontem',negativo
+'estava ótimo até atualizar',negativo
+'este app deveria ter a opção de ver o extrato do ano todo',negativo
+'estou a dias tentando abrir o aplicativo, porém, ele trava no momento de digitar minha senha e não abre',negativo
+'estou a dias tentando abrir o aplicativo',negativo
+'estou bem chateada com essa situação',negativo
+'estou com o problema com o monitoramento de comprar realizado no meu cartão',negativo
+'estou com problemas ao ativar a impressão digital',negativo
+'estou frustrado',negativo
+'estou muito decepcionada',negativo
+'estou muito interessada woop sicredi: pena que não está disponível na minha região recife-pe ):',negativo
+'estou pensando em fechar a conta e abrir em outro banco',negativo
+'estou só esperando encerrar',negativo
+'estou tendo problemas',negativo
+'estou usando cada vez menos',negativo
+'estranho poderia melhorar esse ponto para ficar mais claro e fácil para lembrarmos onde passamos o cartão',negativo
+'eu acho que seria muito útil a informação de gastos do cartão de crédito em tempo real',negativo
+'eu baixei e me cadrastrei mas quando coloquei meu cep deu que aqui no brasil ainda não tem esse cartão não intendi nada',negativo
+'eu coloco o dados e parece senha inválida antes mesmo de chegar no passo da senha',negativo
+'eu instalei o aplicativo mas não consigo abrir, pede o código de segurança mas não consigo instalar',negativo
+'eu instalei o aplicativo mas não consigo abrir',negativo
+'eu não consigo usar o app não entra coloco tudo oque pede mas não entra',negativo
+'eu preciso ir até a agência para pedir para corrigir isso',negativo
+'eu tenho o cartão de credito sicredi touch ai baixei o app mais pede a agencia e conta',negativo
+'excelente app, o único problema é toda vez que ele atualiza é necessário desinstalar e instalar novamente',negativo
+'exibe uma mensagem de erro',negativo
+'explode isso e faz um que preste do zero',negativo
+'explode isso',negativo
+'faça um bechmarking nos concorrentes',negativo
+'faço compra usando o cartão de crédito mais ñ aparece oque gastei fica sempre o mesmo limite lá',negativo
+'fala erro de sistema',negativo
+'fala que esta dando erro de servidor e não sai disso',negativo
+'falta a atualização',negativo
+'falta a funcionalidade de recarga de celular',negativo
+'falta a opção cartão de crédito para baixar em pdf, como os outros bancos como itaú card e bradesco que são excelentes nesta parte',negativo
+'falta a opção de apagar',negativo
+'falta a opção de excluir objetivo já conquistado no gerenciador de investimentos',negativo
+'falta a opção de excluir',negativo
+'falta a opção de extrato e pagamento do cartão de crédito',negativo
+'falta a opção de incluir',negativo
+'falta a opção de salvar',negativo
+'falta a opção',negativo
+'falta a rotação de tela, pra facilitar a teclagem de dados e melhorar a visualização de faturas e extratos por exemplo',negativo
+'falta agilidade, demora muito',negativo
+'falta agilidade',negativo
+'falta apenas a opção de depositar e consultar cheques',negativo
+'falta atualizar a liberação',negativo
+'falta de mais recursos',negativo
+'falta informação',negativo
+'falta muita opção',negativo
+'falta oextrato na paginal proncipal',negativo
+'falta opção de adiantar a fatura do cartão de crédito coisa simples que outros aplicativos possuem',negativo
+'falta opção de adiantar',negativo
+'falta opção para bloqueio e desbloqueio',negativo
+'falta recarga celular',negativo
+'falta segurança',negativo
+'falta ter histórico',negativo
+'favor resolver',negativo
+'faz 3 vezes e bloqueia',negativo
+'faz um que preste',negativo
+'faz uma semana que baixei e não funciona',negativo
+'fazer compra sem saber quanto se tem de limite é complicado',negativo
+'fecha ao digitar a senha nao funciona no tablet, simplesmente nao funciona',negativo
+'fecha ao digitar senha não funciona',negativo
+'fecha o app sozinho quando vou pra transferência ou pagamento no eu smart phone',negativo
+'fecha sempre que eu passo a senha',negativo
+'fica carregando e trava',negativo
+'fica falando usuário não cadastrado mas eu já sou cadastrado',negativo
+'fica pedindo para atualizar e mesmo realizando o procedimento não funciona',negativo
+'fica pedindo pra atualizar para nova versao',negativo
+'fica piscando várias vezes',negativo
+'fica sempre carregando',negativo
+'fica só carregando',negativo
+'fica só na página de login e não entra',negativo
+'fica travado não consigo acessar mais',negativo
+'fica travado',negativo
+'ficando de modo confuso todas as compras escrito : compras nacionais',negativo
+'ficaria melhor com adm do cartao tbem',negativo
+'ficaria melhor se tivesse como visualizar o extrato da conta não de apenas 3 meses, mínimo um ano seria interessante',negativo
+'ficou muito bom so falta do computador',negativo
+'ficou muito ruim',negativo
+'ficou pior',negativo
+'fiquei meia hora fazendo o processo pedido e na hora da foto fica dando errado',negativo
+'fiz a compra, e o saldo leva dias pra atualizar o limite disponível',negativo
+'fiz hoje uma nova senha na agência e o app está dando como incorreta e acabou bloqueando meu acesso',negativo
+'fizemos todo processo porém agora só aparece tente mais tarde',negativo
+'foi bom enquanto durou',negativo
+'fui a toa',negativo
+'fui até a agência e não resolveu, pois cadastrei o token e reinstalei o app, e agora não tenho mais como cadastrar sem ir a agência',negativo
+'fui fazer uma transferência e ele transferiu sem ao menos pedir para confirmar os dados e não pediu nem a senha',negativo
+'fui na agência e me informaram que é um problema do app',negativo
+'fui na agência e não foi resolvido o problema',negativo
+'fui na cooperativa e para trocar a senha passei uma hora',negativo
+'fui orientado por e-mail e não deu certo',negativo
+'fui realizar um pagamento pelo app e não apareceu a opção',negativo
+'funciona perfeitamente',negativo
+'funciona quando quer',negativo
+'funcionava perfeitamente até terca',negativo
+'gostaria de avisar que após a última atualização o campo da senha não está mais aparecendo, assim não consigo logar',negativo
+'gostaria de informar que o aplicativo demora um pouco pra reconhecer a biometria',negativo
+'gostaria de poder, mas nao posso',negativo
+'gostaria de saber por que demora tanto para contabilizar as compras',negativo
+'gostaria de ter disponivel',negativo
+'gostaria de tirar extrato dos meses anteriores e não tenho esse opção somente o mês anterior',negativo
+'gostaria de voltar a poder acompanhar, não consigo',negativo
+'gostaria que tivesse a opção de depósitos de cheques através do app',negativo
+'gosto cada vez menos',negativo
+'gosto muito do aplicativo, porém falta a opção de excluir objetivo já conquistado no gerenciador de investimentos',negativo
+'hoje foi lança uma nova atualização porém ainda não abre',negativo
+'horas na agência',negativo
+'horrível a atualização na parte do cartão de crédito',negativo
+'horrível a atualização',negativo
+'horrível não funciona nem pra celular nem pra tablet',negativo
+'horrível não funciona',negativo
+'horrível pessimo como o outro',negativo
+'horrivel',negativo
+'horrível',negativo
+'horrível',negativo
+'imagina minha satisfação em não poder pagar uma conta ou transferir dinheiro sem contar outros serviços que preciso',negativo
+'impossível cadastrar conta salário',negativo
+'infelizmente não adiantou entrar em contato com o desenvolvedor, atenção zero',negativo
+'infelizmente não adiantou entrar em contato',negativo
+'infelizmente não consigo pagar boleto pelo aplicativo',negativo
+'infelizmente não consigo usar',negativo
+'infelizmente não consigo',negativo
+'infelizmente não consigo',negativo
+'infelizmente não dá',negativo
+'infelizmente não é possível',negativo
+'infelizmente os bancos quando crescem e deixa todos nós de lado',negativo
+'instalei de novo e nada',negativo
+'instalei de nv e nada',negativo
+'instalei e nada',negativo
+'instalei o aplicativo pra fazer abertura da conta porem o mesmo não esta respondendo',negativo
+'inútil',negativo
+'irei da 01 estrela porque nao tem na minha regiao vamos melhor',negativo
+'isso é inadmissível',negativo
+'isso é muito chato',negativo
+'isso é muito ineficiente',negativo
+'isso é pessimo',negativo
+'isso ja ta assim faz 2 meses e nada de arumarem',negativo
+'ja att continua o mesmo erro',negativo
+'já atualizei ele, mas na hora de autenticação de transação ele bloqueia',negativo
+'já atualizei mas não quer entrar',negativo
+'já baixei as versões de tablet e smartphone e nenhuma funciona como mostra nas imagens',negativo
+'ja cadastrei minha senha do internet banking mas nao consigo consultar saldo de conta salário',negativo
+'já desinstalei e instalei novamente diversas vezes e o problema persiste',negativo
+'já desinstalei e instalei várias vezes e a opção desapareceu',negativo
+'ja desinstalei e instalei várias vezes e continua a mesma coisa',negativo
+'já desinstalei e instalei várias vezes',negativo
+'já desinstalei e reinstalei, eu uso muito ele, pois meu tempo é pouco, ele me auxilia muito, arruma isso aí pra gente',negativo
+'ja desinstalei várias vezes e fiz tudo como pediram',negativo
+'já entrei em contato com a central',negativo
+'já está na hora de fazerem',negativo
+'já está na hora de vocês fazerem isso, obg',negativo
+'já faz dias que realizei a compra, até hoje o indica que não ha compras realizadas',negativo
+'já faz um bom tempo que não consigo acessar minha conta',negativo
+'já ficou chato',negativo
+'já fui a agencia e nada, instalei inumeras vezes',negativo
+'já fui na agência, foi cadastrado meu mobile token, foi ajustado o horário mas mesmo assim não funciona',negativo
+'ja fui varias vezes e até agora meu problema não foi resolvido',negativo
+'já informei o gerente mas ele disse que não tem informação do problemas relatados no app',negativo
+'já instalei e desinstalei o app várias vezes, vcs podem me ajudar em relação a esse problema',negativo
+'já liguei e não conseguem resolver',negativo
+'já liguei e ninguém consegue resolver',negativo
+'ja mandei 3 msg sem resp',negativo
+'já mandei email e ninguém consegue resolver',negativo
+'já reclamei na ouvidoria a maioria das pessoas estão tendo problemas aplicativo',negativo
+'já reclamei na ouvidoria',negativo
+'já reinstalei e ainda nada',negativo
+'já reinstalei várias vezes e não corrigiu o erro assim que consertarem o aplicativo mudarei minha opinião',negativo
+'já reinstalei, mas não resolveu',negativo
+'já solicitei atendimento pela central de atendimento, porém o problema persiste',negativo
+'já tá na hora de implantar o sistema das digitais',negativo
+'já tem uns dias q não tô conseguindo abrir ele',negativo
+'já tente de vários tipos e da erro na senha',negativo
+'já tentei resolver o problema com a agência e com o técnico da ti da região, sem sucesso',negativo
+'ja tive que ir ate a agência varias vezes',negativo
+'já tô tentando mais tarde a dias',negativo
+'jah desinstalei e instalei denovo e nao volta o campo de senha',negativo
+'lamentável',negativo
+'lamentável',negativo
+'lamentável',negativo
+'lento de mais',negativo
+'lento demais e confuso para quem, como eu, não entendo muito de ti',negativo
+'lento demais pra abrir',negativo
+'lento demais pra entrar no aplicativo',negativo
+'lento, e travando muito',negativo
+'lento, pesado, trava, complicado',negativo
+'lento',negativo
+'leva dias pra atualizar',negativo
+'levei horas',negativo
+'levei uma hora',negativo
+'limitado e com muitos erros',negativo
+'limitado e meio confuso, mas atende o básico',negativo
+'limitado e meio confuso',negativo
+'limite de conta sai do sistema e mostra mensagem "não foi possível, tente mais tarde"',negativo
+'lixo de aplicativo não consigo mais abrir minha conta, parabéns ao sistema',negativo
+'lixo não consigo mais abrir minha conta',negativo
+'lixo só travamento atrás do outro, explode isso e faz um que preste do zero',negativo
+'lixo só travamento atrás do outro',negativo
+'lixo',negativo
+'lixo',negativo
+'lixo',negativo
+'lixoooo sicredi nunca funciona',negativo
+'mais de uma hora',negativo
+'mais não me ajudou em nada',negativo
+'mais um que não funciona',negativo
+'mal desenvolvido',negativo
+'mas de uns dias pra cá estou com problemas em relação a senha',negativo
+'mas está apresentando erro somente neste app',negativo
+'mas eu não consigo ter acesso às faturas de crédito',negativo
+'mas nao consigo liberar para uso mais, pois diz que nao tenho nenhum dispositivo vinculado agor…',negativo
+'mas nunca funciona',negativo
+'mas tirando este problema q não consigo acessar é maravilhoso o app',negativo
+'massa',negativo
+'me ajuda',negativo
+'me ajuuuudeeemm',negativo
+'me deram o número da conta com 7 dígitos, não consegui fazer o depósito de 20$ para ativação da conta ou seja tempo perdido',negativo
+'me falam tão bem , mas não minha região não tem 😕',negativo
+'me mudei recentemente para esse app, mais não me ajudou em nada',negativo
+'melhor da uma melhorada',negativo
+'melhora ai esse lance do cartão',negativo
+'melhorem esse quesito e ira valer a pena ter o app instalado',negativo
+'melhorou mas ainda tem alguns bugs',negativo
+'melhorou pouco',negativo
+'merda fecha na hora de colocar a senha, pior que o atendimento',negativo
+'merda lixo',negativo
+'mesmo assim não funciona',negativo
+'mesmo com os dados todos certos só fica na parte do login e não abre',negativo
+'mesmo com todos os dados corretos não consigo acessar minha conta',negativo
+'mesmo o gerente da conta desbloqueando o aplicativo, acontece sempre a mesma coisa',negativo
+'mesmo utilizando internet em wi-fi com uma boa navegação o app não responde, fica processando apenas',negativo
+'meu aplicativo não aparece o campo da senha',negativo
+'meu aplicativo vive dando problema no token',negativo
+'meu app trava já desinstalei e instalei 3 vezes e nada por favor utilizo muito',negativo
+'meu marido tem conta ai e não consigo me cadastrar no app pra acompanhar meu saldo',negativo
+'meu nome tudo ok então estou sem entender',negativo
+'meu problema não foi resolvido',negativo
+'meu saldo do cartão de credito só atualiza 3 dias após a compra',negativo
+'meu tempo é curto, arruma isso aí',negativo
+'meu token foi cancelado',negativo
+'meus dados sumiram',negativo
+'mexeram no sistema de acesso e simplesmente não abre mais',negativo
+'minha conta foi aprovada porém não consigo acessar o app pra ter acesso as funções',negativo
+'minha conta não abre',negativo
+'minha conta não abrisse',negativo
+'minha conta não abriu',negativo
+'minha internet está funcionando, não consigo identificar o problema',negativo
+'morro em salvador e não consigo criar conta sendo que tem agência sicredi aqui',negativo
+'mostra a mensagem de erro',negativo
+'muita urgência',negativo
+'muitas atualizações',negativo
+'muito bom mais ainda falta ter um aplicativo para controlar os cartões',negativo
+'muito bom, bem pratico',negativo
+'muito bug',negativo
+'muito erro na execução do app',negativo
+'muito erro',negativo
+'muito lento',negativo
+'muito lento',negativo
+'muito limitado em questão de informação e cheio de coisas desnecessárias sempre atrapalhando',negativo
+'muito limitado em questão de informação',negativo
+'muito lixo',negativo
+'muito ruim ter que ficar digitando todo o barramento',negativo
+'muito ruim ter que ficar digitando',negativo
+'muito ruim, não lê',negativo
+'muito ruim',negativo
+'muito ruim',negativo
+'muito ruim',negativo
+'muito ruin a cada pouco tenque estar atualizando',negativo
+'muito travado',negativo
+'n atualiza e n consigo nem entra no site toda vez q vou no site pede pra mim abaixa o aplicativo',negativo
+'n atualiza',negativo
+'n consigo entra fica dando erro',negativo
+'ñ gostei porque os extratos ñ identificam os depositos',negativo
+'ñ gostei',negativo
+'ñ mudou nada, continua uma falta de criatividade',negativo
+'n tem onde digitar a senha',negativo
+'na agência fui e não foi resolvido o problema',negativo
+'na agência não sabiam ao certo o problema até que descobri que se você tenta acessar pela impressão digital a conta não entra, favor arrumar isso',negativo
+'na agência não sabiam ao certo o problema até que descobri que se você tenta acessar pela impressão digital a conta não entra',negativo
+'na agência não souberam me ajudar quanto a isso',negativo
+'na hora de tirar selfie fica dando erro, é constrangedor',negativo
+'na maioria das vezes em que preciso usar o app, sempre vem a nensagem, não foi possível, por favor tente mais tarde',negativo
+'na primeira semana funcionou perfeitamente, mas agora não está mais',negativo
+'na próxima atualização poderia mostrar o limite do cartão para pessoa jurídica',negativo
+'na quarta liguei no banco e não conseguiram me ajudar, na quinta fui ao banco e foi gerado uma chamada',negativo
+'na versão anterior tudo ok, mas atualizou e agora só está dando erro',negativo
+'não abre a conta poupança',negativo
+'não abre e da erro quando está para entrar',negativo
+'nao abre e nao funciona',negativo
+'nao abre mais ja faz quatro dias estou bem chateada com essa situação',negativo
+'nao abre mais ja faz quatro dias',negativo
+'nao abre mais',negativo
+'nao abre não serve pra nada',negativo
+'não abre no wifi, apenas com os dados móveis',negativo
+'não abre o extrato',negativo
+'não abre pra fazer o login',negativo
+'não abre, fica só na tela de login',negativo
+'não abre',negativo
+'não abre',negativo
+'não abre',negativo
+'não abre',negativo
+'não abre',negativo
+'não abri',negativo
+'nao aceita digitar a senha rapidamente',negativo
+'não acessa a fatura, limites, saldos dos cartões tem revisar esse app falta muita coisa é incompleto',negativo
+'não acessava mais',negativo
+'não achei outro canal pra entrar em contato',negativo
+'não achei outro canal',negativo
+'não acho como fazer no site',negativo
+'não acho documentação',negativo
+'não acho informação',negativo
+'não acho passo a passo',negativo
+'não acontece nada quando eu tento',negativo
+'não aparece a opção pra mim',negativo
+'não aparece informações',negativo
+'nao aparece na hora',negativo
+'não aparece o campo da senha',negativo
+'não aparece todas as informações que estão no informativo do app',negativo
+'não atende os requisitos mínimos',negativo
+'não atualiza em meu tablet, o que acontece',negativo
+'nao atualiza',negativo
+'não carrega',negativo
+'não chega a ser da mesma qualidade de outros bancos devido a erros na navegação',negativo
+'não chega a ser da mesma qualidade de outros',negativo
+'não compativel não homologado para tablet dell venue',negativo
+'nao concigo atualizar o meu app',negativo
+'não consegue abrir para após a senha',negativo
+'não consegue abrir',negativo
+'nao consegui fazer tranferencia nem pagar boleto e agora nem acessar a conta consigo mais, aparece um aviso senha bloqueada',negativo
+'nao consegui fazer tranferencia',negativo
+'não consegui me cadastrar',negativo
+'não consigo abrir minha conta pois sou informado que não podem atender no meu cep como assim gente',negativo
+'não consigo acessar a conta diz servidor não encontrado',negativo
+'não consigo acessar a conta já tem 3 dias',negativo
+'não consigo acessar a conta não pede senha e da senha incorreta',negativo
+'não consigo acessar a conta, fala que esta dando erro de servidor e não sai disso',negativo
+'não consigo acessar a conta',negativo
+'não consigo acessar a conta',negativo
+'não consigo acessar a conta',negativo
+'não consigo acessar diz que minha conta não está liberada',negativo
+'não consigo acessar meus dados',negativo
+'nao consigo acessar minha conta depois da ultima atualizacao',negativo
+'nao consigo acessar minha conta o que devo fazer ja desinstalei e intalei de novo mais não entra na minha conta',negativo
+'nao consigo acessar minha conta',negativo
+'não consigo acessar minha conta',negativo
+'nao consigo acessar nada, pois simplesmente o app nao funciona',negativo
+'não consigo acessar o aplicativo devido a isso',negativo
+'não consigo acessar via app, pois desapareceu o campo de entrada da senha de acesso',negativo
+'não consigo acessar',negativo
+'não consigo acessar',negativo
+'não consigo acessar',negativo
+'não consigo acompanhar os gastos do cartão de crédito',negativo
+'não consigo atualizar',negativo
+'não consigo baixar minha fatura, as operações são absolutamente limitadas',negativo
+'não consigo baixar minha fatura',negativo
+'não consigo baixar',negativo
+'não consigo cadastrar uma conta no aplicativo',negativo
+'não consigo colocar minha renda no cadastro,e quero saber se terei cartão de crédito na conta',negativo
+'não consigo conectar a minha conta',negativo
+'nao consigo contato com a cooperativa',negativo
+'não consigo contratar um financiamento',negativo
+'não consigo controlar os boletos',negativo
+'não consigo entrar , o que coloco em senha',negativo
+'não consigo entrar fica dando erro no sistema é nada ja fui no banco tá tudo certo e não consigo entrar',negativo
+'não consigo entrar na conta pelo app na data de hoje',negativo
+'não consigo entrar na minha conta',negativo
+'não consigo entrar na minha conta',negativo
+'não consigo entrar no app até desinstalei e instalei novamente, mas continua o aviso de falha na conectividade',negativo
+'não consigo entrar no app, até desinstalei e instalei novamente',negativo
+'nao consigo entrar',negativo
+'nao consigo fazer login',negativo
+'não consigo fazer pagamento',negativo
+'não consigo fazer transferência e nem pagamento',negativo
+'não consigo fazer transferências',negativo
+'não consigo identificar o problema',negativo
+'não consigo identificar o problema',negativo
+'não consigo inserir os números da conta',negativo
+'não consigo instalar',negativo
+'nao consigo logar',negativo
+'não consigo logar',negativo
+'não consigo mais acessar minha conta',negativo
+'não consigo mais pagar meus boletos',negativo
+'não consigo me cadastrar no app pra acompanhar meu saldo',negativo
+'não consigo me cadastrar',negativo
+'não consigo movimentar minha conta',negativo
+'não consigo nada',negativo
+'não consigo nem abrir',negativo
+'nao consigo nem entra no site toda vez q vou no site pede pra mim abaixa o aplicativo',negativo
+'nao consigo nem entra no site',negativo
+'não consigo nem entrar mais no app',negativo
+'não consigo nem fazer',negativo
+'não consigo nem pagar mais',negativo
+'não consigo nem ver o saldo',negativo
+'não consigo nem ver quem fez os depósitos',negativo
+'não consigo pagar boletos com o leitor de código de barras e nem quando informo o número do boleto',negativo
+'não consigo pagar boletos pelo app nem pelo scanner nem digitando o código de barras',negativo
+'não consigo pagar contas através aplicativo',negativo
+'não consigo pagar',negativo
+'não consigo passar do login, uma mensagem aparece dizendo que estão atualizando o sistema',negativo
+'não consigo realizar o cadastro de conta poupança',negativo
+'não consigo resolver',negativo
+'não consigo saber quanto de limite que ainda me resta, porque não mostra nada',negativo
+'não consigo ter acesso pois sempre aparece erro',negativo
+'não consigo ter acesso',negativo
+'não consigo transferir dinheiro',negativo
+'não consigo usar o app pois esta dizendo q meu celular tem root sendo q nunca fiz root nele:( ##chateda',negativo
+'não consigo usar',negativo
+'nao consigo utilizar o app diz que meu celular tem root mas nao tenho',negativo
+'não consigo ver meus limites de cartão de crédito, e se preciso fazer uma recarga de celular também não consigo',negativo
+'nao consigo ver nome das lojas que foram passadas o cartao',negativo
+'não consigo visualizar nada',negativo
+'nao consigo',negativo
+'não é auto explicativo',negativo
+'nao é bom',negativo
+'não é claro',negativo
+'não é da mesma qualidade dos concorrentes',negativo
+'não é de qualidade',negativo
+'nao é legal',negativo
+'não é possível visualizar lançamentos do cartão de crédito',negativo
+'não encontro ajuda',negativo
+'não entendi nada',negativo
+'nao entendi o motivo de nem a conta me aprovar',negativo
+'não entendi por que',negativo
+'não entendi porque em poucos dias foram descontados sendo que nem tem tanta dívida assim',negativo
+'nao entra fica so dando erro',negativo
+'não entra nem na conta',negativo
+'não entra no app',negativo
+'não está abrindo o aplicativo',negativo
+'não está abrindo',negativo
+'não está acessando aparece falha de comunicação com o servidor, já faz uns 2 dias',negativo
+'não está disponível pra são luís - ma, o que eu acho que não faz sentido, já que é uma conta digital',negativo
+'não está fluindo bem, demora pra carregar e atualizar as informações de saldo',negativo
+'não está fluindo bem',negativo
+'não está funcionando o token',negativo
+'não está funcionando',negativo
+'não estamos conseguindo digitar',negativo
+'não estamos conseguindo transacionar',negativo
+'não estamos podendo fazer transaferencia',negativo
+'não estamos podendo ver cartoes',negativo
+'não estamos podendo ver credito',negativo
+'não estamos podendo ver extrato',negativo
+'não estamos podendo ver investimento',negativo
+'não estamos podendo ver saldo',negativo
+'não estamos podendo',negativo
+'não estou conseguindo acessar a minha conta..coloco a minha senha e mesmo assim não entra',negativo
+'não estou conseguindo acessar a minha conta',negativo
+'não estou conseguindo acessar minha conta o aplicativo não está abrindo mais já fiz de tudo e não abre',negativo
+'não estou conseguindo acessar minha conta pelo app desde a última atualização',negativo
+'não estou conseguindo acessar minha conta salário',negativo
+'não estou conseguindo acessar não está abrindo o aplicativo',negativo
+'não estou conseguindo acessar nos últimos dias',negativo
+'não estou conseguindo acessar o aplicativo,desde desta última atualização',negativo
+'não estou conseguindo acessar para ver o saldo da minha conta fica falando usuário não cadastrado sendo que eu já sou cadastrado',negativo
+'não estou conseguindo acessar pelo app e nem pelo navegador da internet',negativo
+'não estou conseguindo acessar',negativo
+'não estou conseguindo acessar',negativo
+'não estou conseguindo acessar',negativo
+'não estou conseguindo acessar',negativo
+'não estou conseguindo acessar',negativo
+'não estou conseguindo conectar',negativo
+'não estou conseguindo efetuar pagamento faz alguns dias e isso vem ocorrendo com frequência',negativo
+'não estou conseguindo entrar, somente pelo computador',negativo
+'não estou conseguindo entrar',negativo
+'não estou conseguindo fazer o pagamento da fatura do cartão de crédito pelo app',negativo
+'não estou conseguindo fazer o pagamento',negativo
+'não estou conseguindo gerenciar as outras contas, apenas uma',negativo
+'não estou conseguindo pagar contas pelo aplicativo não lê o código de barras me ajuda',negativo
+'não estou conseguindo pagar contas pelo aplicativo',negativo
+'não estou conseguindo pagar',negativo
+'não estou conseguindo usar',negativo
+'não estou conseguindo visualizar o meu saldo',negativo
+'não estou conseguindo',negativo
+'não estou gostando nos últimos dias',negativo
+'nao estou satisfeito',negativo
+'nao faz seu papel',negativo
+'nao fico satisfeito',negativo
+'não foi divulgada nova versão',negativo
+'não foi possível concluir seu pagamento da que meu token foi cancelado',negativo
+'não foi possível concluir',negativo
+'não foi possível, por favor tente mais tarde',negativo
+'não foi possível, tente mais tarde',negativo
+'não foi resolvido o problema',negativo
+'não funciona após a atualização',negativo
+'nao funciona mais',negativo
+'nao funciona muito bem',negativo
+'não funciona não atende a comandos e se encerra inesperadamente',negativo
+'não funciona no tablet',negativo
+'não funciona para clientes sicredi pernambucred',negativo
+'não funciona quase nada no aplicativo',negativo
+'nao funciona',negativo
+'não funciona',negativo
+'não funciona',negativo
+'não funciona',negativo
+'não funciona',negativo
+'não funciona',negativo
+'não funciona',negativo
+'não funcionando',negativo
+'não gostei de cara já foi negado o cartão de crédito mesmo pagando os 9,90 e ainda consulta spc não tenho nome sujo não',negativo
+'nao gostei',negativo
+'nao gosto do app',negativo
+'não gosto do app',negativo
+'não lê mais os boletos',negativo
+'não lê o código de barras',negativo
+'não lê os códigos de barras, de nenhuma maneira depois das últimas duas avaliações',negativo
+'não lê os códigos de barras',negativo
+'não me ajuda',negativo
+'não me ajudou em nada',negativo
+'não me liberam credito',negativo
+'não melhorou',negativo
+'não merece nem uma estrela putz griliz não funciona',negativo
+'não mostra claramente',negativo
+'não mostra de forma clara',negativo
+'não mostra meu saldo, e não consigo entrar usando biometria',negativo
+'nao mudou nada',negativo
+'não pediu nem a senha',negativo
+'não posso ir a um banco para pagar uma conta, dependia do app',negativo
+'não possuo conta, apenas pago um acordo mensal e resolveram cobrar taxas de relacionamento',negativo
+'não recomendo, já começou ruim sem aprovação , no brasil o melhor banco e o inter o resto e ladata',negativo
+'não resolveram o problema',negativo
+'não resolveu reinstalar',negativo
+'não resolveu',negativo
+'nao roda mais',negativo
+'nao sabe o que fazem',negativo
+'não sai da tela do logo',negativo
+'não sai disso',negativo
+'não sai disso',negativo
+'não se consegue pagar nada mesmo colocando tudo certo',negativo
+'não sei mais o que fazer',negativo
+'não sei o que aconteceu com a última atualização, mas não consigo mais usar o app',negativo
+'não sei se eu que dou azar ou é ruim',negativo
+'não tem a opção de transferir',negativo
+'não tem como usar o app depois dessa atualização',negativo
+'não tem desenvolvedores competentes para a sicredi contratar',negativo
+'não tem essa alternativa',negativo
+'não tem essa opção no meu aki',negativo
+'não tem opção de entrar com digital',negativo
+'não tem qualidade',negativo
+'não tenho ajuda',negativo
+'não tenho esse opção somente o mês anterior',negativo
+'não tô conseguindo abrir ele',negativo
+'não to conseguindo atualizar para a nova versão',negativo
+'nao',negativo
+'negativaram meu nome sem se quer enviar uma cobrança',negativo
+'nem abre mais agora',negativo
+'nem me encaminha p por os dados da conta',negativo
+'nem mesmo abre o leitor',negativo
+'nem na agência aqui na cidade eles conseguiram resolver',negativo
+'nem o tanto que gastei, so obrigado a ficar fazendo de cabeça',negativo
+'nem pagar boleto',negativo
+'nem quero usar o app',negativo
+'neste caso não resolve',negativo
+'ninguém consegue resolver isso',negativo
+'no campo descrição não permite terminar a frase',negativo
+'no começo era tudo de bom',negativo
+'no meu celular começou a dar problema fica saindo toda a hora',negativo
+'no meu celular não ta mostrando mais o saldo depois dessa nova atualização',negativo
+'no rn não possui o digital',negativo
+'nos cliente queremos ter acesso total dos serviços disponibilizados pela cooperativa',negativo
+'nota 0',negativo
+'nota zero',negativo
+'nunca consigui acessar minha conta',negativo
+'nunca sei quanto ainda tenho de credito',negativo
+'nunca vi isso, logo em minha conta e não aparece nenhuma informação sobre a conta',negativo
+'o anterior funcionava mt bem',negativo
+'o aplicativo apresenta muitas falhas',negativo
+'o aplicativo consta que meu celular tem acesso root, mas não tem',negativo
+'o aplicativo diz que sábado ou domingo não é dia útil para transações',negativo
+'o aplicativo do banco do brasil é um ótimo exemplo a se seguir',negativo
+'o aplicativo e bom so não consigo atualizar',negativo
+'o aplicativo é ótimo, porém tem algumas coisas que só faz em dia útil, como transferência, resgate, dentre outros, por ser um aplicativo tinha que ser online e funcionar a qualquer momento',negativo
+'o aplicativo é ótimo, só estou com problemas não consigo cadastrar uma conta no aplicativo',negativo
+'o aplicativo é ótimo, só estou com problemas',negativo
+'o aplicativo esta dando problema tanto no tablet quanto no celular, resolvam isso',negativo
+'o aplicativo está travando desde a última atualização',negativo
+'o aplicativo fecha quando lê o código de barras',negativo
+'o aplicativo ficou muito ruim',negativo
+'o aplicativo não abre sem fazer uma atualização',negativo
+'o aplicativo não possibilita ted ou doc para outros bancos',negativo
+'o aplicativo quando não falha é muito bom',negativo
+'o app atualizou, mas nao está funcionando corretamente',negativo
+'o app deixa a desejar em alguns aspectos, como não poder verificar o extrato das contas pagas em debito automático',negativo
+'o app deixa a desejar em alguns aspectos',negativo
+'o app é bom mas de um tempo pra ca nao consigo fazer pagamentos pelo app',negativo
+'o app é muito bosta',negativo
+'o app é tem uma uma diversidade de de ferramentas, porém senti falta de uma calculadora',negativo
+'o app era bom',negativo
+'o app está com algum erro',negativo
+'o app está com problema, o campo da senha não está aparecendo e quando tento entrar da senha inválida e o app parou de funcionar',negativo
+'o app esta travando muito',negativo
+'o app está travando na tela inicial, e não abre pra fazer o login',negativo
+'o app está travando na tela inicial',negativo
+'o app fecha automaticamente',negativo
+'o app funciona bem, porém desde semana passada estava tentando acessar e não conseguia',negativo
+'o app funciona bem',negativo
+'o app melhorou o layout, apenas',negativo
+'o app melhorou o leiaute, apenas',negativo
+'o app não atualiza o limite do cartão de crédito, nem o saldo, só depois de uma semana',negativo
+'o app não atualiza',negativo
+'o app não funciona',negativo
+'o app não mostra de forma clara onde a compra foi feita',negativo
+'o app não responde, fica apenas processando',negativo
+'o app nessa última atualizacao n abre mais',negativo
+'o app nunca funcionou bem',negativo
+'o app sermpre funcionava bem',negativo
+'o app tá travando muito, está horrível, não consigo entrar na minha conta',negativo
+'o app também não esta atualizando',negativo
+'o app tem que melhorar muito para poder competir com outros',negativo
+'o banco é bom porém o app precisa melhor bastante',negativo
+'o desdém dos funcionários',negativo
+'o extrato do cartão de crédito deveria ser atualizado mais rápido',negativo
+'o item de cartão não funciona',negativo
+'o jeito é confuso',negativo
+'o leitor parou de funcionar',negativo
+'o meu app não quer mais abrir quando eu uso a biometria do meu celular',negativo
+'o next do bradesco é ótimo',negativo
+'o pior de tudo é quando você usa o cartão em um estabelecimento e vai olhar a fatura e só esta marcado compras nacionais',negativo
+'o problema continua e pelos relatos abaixo, não é só comigo',negativo
+'o problema de falha de conexão foi resolvido, porém o app ainda continua lento, a cada nova operação que se deseja realizar ele realiza um carregamento, fato esse que, no meu ponto de vista, deveria ser corrigido, pois agilidade é muito importante',negativo
+'o problema é com vcs',negativo
+'o problema e com voces',negativo
+'o problema é com voces',negativo
+'o problema é só com vcs',negativo
+'o problema é só com vocês',negativo
+'o problema nao foi resolvido',negativo
+'o problema persiste a dias',negativo
+'o problema persiste a mais de dias',negativo
+'o problema persiste',negativo
+'o problema que é só com o sicredi pois possuo outros apps de banco e abrem normalmente',negativo
+'o ruim é que ele não lhe atualiza da a compras no crédito',negativo
+'o ruim é que não apresenta compras no crédito',negativo
+'o ruim é que não atualiza compras no crédito',negativo
+'o ruim é que não mostra compras no crédito',negativo
+'o tal do e-mail nunca veio',negativo
+'obrigado por fazer eu ir toda vez ao banco',negativo
+'ocorreu um erro',negativo
+'olha poderia da cinco estrelas, mais a impressão digital não funciona, quando coloco o dedo tranca o app, mais o app e muito bom',negativo
+'onde acho essa senha',negativo
+'onde também não sabem de nada',negativo
+'os atendentes sem sabe o que fazer',negativo
+'os lançamentos futuros deveriam aparecer uns dias antes do débito',negativo
+'os numeros ficam escondidos eu uma barra um em cima do outro da pra melhorar',negativo
+'ótimo aplicativo, mais deixa uma sugestão ai, melhorar a parte de adiantar pagamento de empréstimo pessoal, às vezes vencimento está em uma data e poder pagar adiantado, seria ótimo',negativo
+'ótimo mas precisa atualizar mais rapido',negativo
+'ótimo, mas pode melhorar',negativo
+'outra coisa que acho errado é que na hora de fazer um pagamento o valor não pode ser debitado da poupança',negativo
+'outra sugestão seria o adiantamento de parcelas pelo aplicativo',negativo
+'outros sao melhores',negativo
+'p/ ter acesso a esse serviço só pagando',negativo
+'para abrir demora minutos',negativo
+'para abrir já chegou a levar 5 minutos',negativo
+'para abrir leva minutos',negativo
+'para de funcionar de repente',negativo
+'para de funcionar',negativo
+'para fazer transferencia tem que entrar em contato com alguem da minha agencia',negativo
+'para ficar ruim tem que melhorar muito',negativo
+'para pagamento o leitor ótico é fraco',negativo
+'para tablet pq estão baixando a versão tablet no celular',negativo
+'pararam e não conseguiram resolver',negativo
+'parem de complicar o que deveria ser simples',negativo
+'parou de funcionar justo no dia útil',negativo
+'parou de funcionar',negativo
+'passei horas',negativo
+'pede muita atualização',negativo
+'pede para atualizar, mas não tem atualização disponível',negativo
+'pede para verificar a internet mas a wifi está normal',negativo
+'pede pra atualizar e não consigo, sem acesso a dias',negativo
+'pede um depósito de 5 para liberar o crédito e depois de fazer o deposito diz q não foi possível fazer a liberação ridículo isso',negativo
+'pedir para corrigir isso',negativo
+'pediram para aguardar nova atualização',negativo
+'pelo menos uma vez cada dias impossibilitado de fazer pagamento',negativo
+'penso que tem que ser em tempo real',negativo
+'percimo não tem onde moro empresa fraca tem agência aqui mas não atende a localidade',negativo
+'perdi horas',negativo
+'persiste o problema',negativo
+'pesado',negativo
+'péssimo aplicativo, não dá para fazer praticamente nada',negativo
+'péssimo com as últimas atualizações',negativo
+'péssimo n está funcionando',negativo
+'pessimo nesta última atualização não consigo acessar minha conta',negativo
+'péssimo, fui excluir um contato cadastrado para transferência e meu dispositivo foi bloqueado',negativo
+'péssimo',negativo
+'péssimo',negativo
+'péssimo',negativo
+'pessoas estão tendo problemas',negativo
+'pior aplicativo de banco que já tive',negativo
+'pode melhorar bastante',negativo
+'pode ser melhorado, mas já é ótimo assim',negativo
+'pode ser melhorado',negativo
+'poderia corrigir isso',negativo
+'poderia me dizer pq o limite de conta sai do sistema e deixam a mensagem "não foi possível, tente mais tarde"..o problema persiste a mais de dias',negativo
+'poderia ter o monitoramento em tempo real dos gastos do cartão',negativo
+'poderia voltar com as senhas, retirando esse token',negativo
+'poderiam colocar ao invés de ficar pedindo',negativo
+'poderiam melhorar usar o app para comprar ou pagar contas nos sabados',negativo
+'poderiam melhorar',negativo
+'podia ficar melhor',negativo
+'podia ser melhor',negativo
+'podiam aumentar o limite diário',negativo
+'pois nao consigo fazer transferencia',negativo
+'pois o app não atualiza e bloqueou meu acesso',negativo
+'pois os campos usuários e senhas se tornam inválidos',negativo
+'pois possuo outros apps de banco e abrem normalmente',negativo
+'por favor arrume isso nao esto conseguino acessa o app',negativo
+'por favor arrumem isso a gente faz uma compra hoje e vai aparecer na fatura muitos dias depois',negativo
+'por favor arrumem isso',negativo
+'por favor corrige o problema pois preciso usar o app',negativo
+'por favor corrijam o bug da funcao de verificao e me avisem q reavalio',negativo
+'por favor corrijam o bug',negativo
+'por favor, implantem biometria para android também, só tem para ios',negativo
+'por favor, resolvam',negativo
+'por favor, tente novamente mais tarde',negativo
+'por gentileza, verificar o que está acontencendo',negativo
+'por que da erro de agencia',negativo
+'por que da erro',negativo
+'por ser um aplicativo tinha que funcionar a qualquer momento',negativo
+'porém podia haver mais opções',negativo
+'porém podia haver opção',negativo
+'porém tem algumas coisas que só faz em dia útil',negativo
+'porém tranca muito',negativo
+'porque vc nao aceita aqui em pernambuco na cidade pombos',negativo
+'poupanca poderia ser melhor e ter acesso para quem tem somente poupança',negativo
+'pq n esta aparecendo o campo senha',negativo
+'pq toda vez que tento fazer uma ted ou pagar conta a senha da inválida',negativo
+'pra mim está ruim',negativo
+'pra mim falta só um detalhe ver limite disponível do cartão de crédito da conta jurídica',negativo
+'pra piorar negativaram meu nome e de meu esposo sem se quer enviar uma cobrança valor totalmente indevido',negativo
+'precisa agilizacao',negativo
+'precisa atualizar diariamente, poxa',negativo
+'precisa de melhorias',negativo
+'precisa de uma atualização mais rápida das movimentações cartão crédito',negativo
+'precisa melhorar lentidão do app',negativo
+'precisa ter mais testes nas versões antes de ser disponibilizado para download',negativo
+'precisam buscar a mesma tecnologia de outros bancos',negativo
+'precisam melhorar a tecnologia',negativo
+'precisei redefinir minha senha, não acessava mais',negativo
+'preciso com urgência usar o aplicativo',negativo
+'preciso de mais limite no meu cartão',negativo
+'preciso digitar o código de barras manualmente',negativo
+'preciso fazer manualmente',negativo
+'preciso pagar contas e não está funcionando',negativo
+'preciso visualizar a senha do meu cartão mas não consigo',negativo
+'qualidade superior a todos os outros, mas precisa atualizar diariamente o limite de crédito, poxa',negativo
+'quando acessa com o cnpj aí não tem a opção para pagar e consultar o cartão de credito',negativo
+'quando ativo impressão digital em meu j5, apresenta erro ao vincular leitor biométrico',negativo
+'quando clica em abrir o aplicativo fecha',negativo
+'quando digito minha senha ele fica carregando e trava',negativo
+'quando eu entro, só aparece a opção saldo, que não acontece nada quando eu clico nessa opção',negativo
+'quando fui tentar o campo não aceita mais dígitos',negativo
+'quando funcionava era bom eu usava todos os dias era um ótimo app mas agora não funciona mais',negativo
+'quando funcionava era bom',negativo
+'quando irão solucionar o problema',negativo
+'quando ligamos para autorizar, eles não atendem',negativo
+'quando se usa a digital pra entrar o app para de funcionar',negativo
+'quando tento acessar o aplicativo ele nao abre e diz que precisa ser atualizado na playstore',negativo
+'quando tu mais precisa ele blogueia',negativo
+'quando vai tirar foto do documento o app trava',negativo
+'que amadorismo, sicredi',negativo
+'que merda',negativo
+'que nem o para smartphone uma droga',negativo
+'que pena que ainda não chegou aqui no pernambuco😣',negativo
+'que tristeza',negativo
+'quer saber, o aplicativo quando não falha é muito bom',negativo
+'queria poder ver meu saldo e meus gasto, toda vez tenho que ta anotando num papel pq o app n mostra',negativo
+'queria poder ver meu saldo',negativo
+'queria usar o app mas n consigo logar',negativo
+'queria usar o app mas nem consegui logar',negativo
+'quero cancelar minha conta',negativo
+'quero usar mas não consigo',negativo
+'quero usar o app mas nao consigo',negativo
+'realmente cada vez pior',negativo
+'realmente um lixo assim como as demais ferramentas',negativo
+'reiniciei meu smartphone, e nada, desliguei, nada de funcionar, desinstalei o aplicativo e instalei novamente por umas 3 vezes e nada',negativo
+'reiniciei meu smartphone, e nada',negativo
+'resolvam isto por favor',negativo
+'resolveram cobrar taxas de relacionamento',negativo
+'resolveram cobrar taxas',negativo
+'resolveram me cobrar',negativo
+'restaurei padrões do app e continua na mesma, o problema que é só com o sicredi pois possuo outros apps de banco e abrem normalmente',negativo
+'restaurei padrões do app e continua na mesma',negativo
+'ridículo ir na agência para poder usar o app',negativo
+'ridículo ter que ir na agência para poder usar o aplicativo se a gente quer usar o aplicativo é porque não queremos nos deslocar até a agência, urgência e praticidade é pra isso que serve app bancários',negativo
+'ridículo ter que ir na agência para poder usar o aplicativo',negativo
+'ridículo ter que ir na agência para poder usar o app',negativo
+'ruim isso',negativo
+'ruim sempre fecha sozinho apos ser aberto, impossivel de utiliza-lo',negativo
+'ruim',negativo
+'sao muito limitadas',negativo
+'se a gente quer usar o aplicativo é porque não queremos nos deslocar até a agência',negativo
+'se persistir assim, vou fechar minha conta na sicredi',negativo
+'se puderem me ajudar eu agradeço',negativo
+'se recusam a aceitar digitação',negativo
+'se tornam inválidos',negativo
+'sem acesso a dias',negativo
+'sem ao menos pedir para confirmar os dados e não pediu nem a senha',negativo
+'sem contar que a cada atualização tenho que me deslocar até a agência pra liberação do token',negativo
+'sem falar o desdém dos funcionários da agência quando ligo',negativo
+'sem falar que demora muito para liberar o credito',negativo
+'sem falar que demora muito',negativo
+'sem falar que quando paga a fatura demora muito para liberar o credito',negativo
+'sem saber o que fazer',negativo
+'sempre apare a mensagem : ocorreu um erro no sistema',negativo
+'sempre atrapalhando',negativo
+'sempre dá indisponível',negativo
+'sempre diz pra tentar mais tarde',negativo
+'sempre diz pra você tentar mais tarde mas nunca funciona',negativo
+'sempre diz tente novamente mais tarde',negativo
+'sempre quando tenho que pagar um boleto da erro_1310 itoken',negativo
+'sempre que preciso não funciona.sempre pede atualização',negativo
+'sempre tenho que desinstalar e instalar',negativo
+'sempre usei o app muito bem, faz 3 dias que não funciona',negativo
+'senha não acessava mais',negativo
+'senha não cadastrada',negativo
+'seria bom se a opção do cartão de crédito tivesse na opção gratuita assim ia fazer disputa com nubank e o banco inter ai vcs viriam com tudo agora dividir o cartão de crédito para uma conta paga e na versão da conta gratuita só débito não e legal porque nem sempre as pessoas fazem tanta preferência …',negativo
+'seria possível melhorar',negativo
+'seria tão ágil',negativo
+'seria tão fácil e ágil',negativo
+'seria tão fácil',negativo
+'servidor caindo toda hora',negativo
+'simplesmente impossível consultar, contratar ou liberar crédito pelo app',negativo
+'simplesmente impossível usar',negativo
+'simplesmente não abre',negativo
+'simplesmente não consigo acessar, fecha sempre que eu passo a senha',negativo
+'simplesmente não consigo acessar',negativo
+'simplesmente não funciona só fica carregado',negativo
+'simplesmente não funciona, ficou totalmente inoperante após a atualização',negativo
+'simplesmente nao funciona',negativo
+'simplesmente não funciona',negativo
+'simplesmente não funciona',negativo
+'simplesmente parou de funcionar',negativo
+'sistema péssimo',negativo
+'site péssimo',negativo
+'só acho ruim porque desatualiza',negativo
+'só aparece a opção de digitar',negativo
+'só atende o básico',negativo
+'so consegui atualizar desisntalando e instalando o app com atualização',negativo
+'só dá erro',negativo
+'só depois de uma semana',negativo
+'só deveria ser mais rápido para lançar',negativo
+'só dor de cabeça',negativo
+'só está dando dor de cabeça',negativo
+'so esta me dando dor de cabeça',negativo
+'só falta a opção de vermos no extrato em qual estabelecimento o cartão de débito foi utilizado',negativo
+'só fica na tela de login, não abre',negativo
+'só funciona quando quer',negativo
+'só incomodacao',negativo
+'só incomodo',negativo
+'só não faça como o itaú, de toda a atualização ter de ir ao caixa para ativar itoken',negativo
+'só não gostei muito por ter várias taxas',negativo
+'só o que sinto falta é de poder pagar minha fatura antes do fechamento pra com isso liberar limite do cartão',negativo
+'só podem estar de brincadeira',negativo
+'só precisa de volta as cotações',negativo
+'só problema',negativo
+'só que poderia fornecer uma cartão virtual, para podermos fazer compras na internet sem preocupação',negativo
+'só serve pra consultar o saldo',negativo
+'socorro, preciso desse app funcionando novamente urgente uso direto, usava né',negativo
+'socorro, preciso desse app funcionando',negativo
+'socorro',negativo
+'sou funcionário da empresa e tenho acesso a conta, porém não consigo visualizar nada',negativo
+'sou obrigado a ficar fazendo de cabeça',negativo
+'sumiu uma funcionalidade',negativo
+'sumiu uma parte',negativo
+'ta bugada nova versão',negativo
+'ta bugado',negativo
+'tá difícil ter que ficar indo',negativo
+'tá horrível não abre',negativo
+'ta muito ruim não da pra entra i sempre acontece isso, os app de outros bancos não fica acontecendo isso',negativo
+'ta péssimo da uma melhorada',negativo
+'ta um lixo esse app',negativo
+'ta uma droga esse negocio de token de segurança',negativo
+'talvez falte atualizar o dispositivo, mas não tem essa alternativa',negativo
+'também não consigo',negativo
+'também poderia ter disponivel o depósito por cheque pelo app, que facilitaria os depósitos dos cheques e não precisaria ir na agência para fazer o depósito',negativo
+'telefone do site nao pega',negativo
+'telefone nao funciona',negativo
+'telefone nao pega',negativo
+'tem alguém com capacidade intelectual pra arrumar isso',negativo
+'tem bugs',negativo
+'tem melhorado bastante em suas últimas versões, mas não traz novidades significativas',negativo
+'tem poucos recursos',negativo
+'tem que da uma revisão ou fazer outro',negativo
+'tem que da uma revisão',negativo
+'tem que fazer muitas melhorias, pois é completamente inútil',negativo
+'tem que funcionar toda hora',negativo
+'tem que funcionar todo momento',negativo
+'tem que implementar uma interface melhor',negativo
+'tem que melhorar ainda',negativo
+'tem que melhorar bastante',negativo
+'tem que melhorar esse aplicativo',negativo
+'tem que melhorar muito',negativo
+'tem que melhorar',negativo
+'tem que ser mais detalhado',negativo
+'tem que ter mais agilidade pois é muito importante',negativo
+'tem que ter mais agilidade',negativo
+'tem um bug um pouco chato que às vezes eu entro no aplicativo e ainda continua conectado',negativo
+'tenho que aguardar nova versão com correção do bug porém, não foi divulgada nova versão',negativo
+'tenho que aguardar nova versão com correção',negativo
+'tenho que desinstalar e instalar de novo pois não entra',negativo
+'tenho que ir toda vez na agência para recadastrar-lo',negativo
+'tenho que ligar no banco para pedir uma nova senha toda vez que vou fazer um pagamento',negativo
+'tenta e nao consegue',negativo
+'tenta e nao funciona',negativo
+'tentam fazer na próxima atualização, aí dou 5 estrelas, pois já está na hora de vocês fazerem isso, obg',negativo
+'tente mais tarde',negativo
+'tento abrir o cadastro meu cep não estar aceitando',negativo
+'tento entrar mais fala que os campos tem que estar preenchido sendo que ta tudo preenchido',negativo
+'tento entrar na minha conta juridica, mas após digitar a senha não loga/entra/acessa',negativo
+'tento três vezes pagar e bloqueia',negativo
+'tento usar o app',negativo
+'teve fraude',negativo
+'tinha que funcionar a qualquer momento',negativo
+'tínhamos uma versão modesta mas totalmente funcional e disponibilizaram essa moderna, porém, cheia de bugs, travamentos e erros',negativo
+'tirando este problema, é maravilhoso o app',negativo
+'tive algum problema',negativo
+'tive ficar a toa',negativo
+'tive que ir até lá a toa',negativo
+'tive que ir até lá pra nada',negativo
+'to cansado de ir an agencia refazer minha senha, pq toda vez que tento fazer uma ted ou pagar conta a senha da inválida',negativo
+'to cansado de ir an agencia refazer minha senha',negativo
+'toda a atualização tem que ir ao caixa',negativo
+'toda hora diz que a senha não confere e bloqueia',negativo
+'toda hora falha comunicaçao com servidores',negativo
+'toda hora tem q baixar atualizacao',negativo
+'toda hora tem que atualizar',negativo
+'toda vez manda baixar',negativo
+'toda vez pede pra eu baixar o aplicativo',negativo
+'toda vez preciso atualizar',negativo
+'toda vez q vou no site pede pra eu baixar o aplicativo',negativo
+'toda vez que abre da erro',negativo
+'toda vez que preciso utilizar, preciso atualizar, isso é muito ineficiente',negativo
+'toda vez que vou entrar da erro no sistema',negativo
+'toda vez que vou pagar faço procedimento quando finaliza diz: não foi possível concluir seu pagamento da que meu token foi cancelado',negativo
+'todas a informações da conta estão corretas, não sei mais o que fazer',negativo
+'top, só precisa de volta as cotações das moedas',negativo
+'totalmente indevido',negativo
+'tranca muito',negativo
+'tranca regularmente, difícil a vida dos pagadores de boletos',negativo
+'tranca regularmente',negativo
+'trava a descrição e não deixa escrever',negativo
+'trava as vezes, mas quase sempre consigo resolver pelo app',negativo
+'trava as vezes',negativo
+'trava muito',negativo
+'trava na hora de tirar foto, desisto e não adianta me mandar ligar pra nenhum lugar',negativo
+'trava o tempo todo',negativo
+'trava toda hora',negativo
+'trava varias vezes ao mes',negativo
+'trava',negativo
+'travou',negativo
+'tudo demora pra carregar',negativo
+'última versão não está funcionando',negativo
+'um dos melhores apps bancários que já usei, porém deveria ter a função para consultar ou gerar boletos de antecipação de parcelas de consórcio',negativo
+'um dos pior que ja vi',negativo
+'um em cima do outro, da pra melhorar',negativo
+'um erro é a identificação biométrica como senha de acesso',negativo
+'um erro é a identificação biométrica',negativo
+'um erro é',negativo
+'uma afronta',negativo
+'uma atualização não possa resolver',negativo
+'uma critica',negativo
+'uma crítica',negativo
+'uma droga',negativo
+'uma merda',negativo
+'uma pena mesmo',negativo
+'uma pena não poder utilizar em aparelhos com root, com a nubank não tive esse problema',negativo
+'uma pena, não consigo resolver minhas finanças (pagamento) por esse aplicativo',negativo
+'uma vergonha sou cliente do banco a 10 anos , e ter um aplicativo ruim desse , que só trava e da erro',negativo
+'único problema é a demora',negativo
+'único problema é q demora pra entrar',negativo
+'único problema é toda vez que atualiza é necessário desinstalar e instalar novamente pois campos se tornam inválidos',negativo
+'único problema é toda vez que ele atualiza é necessário desinstalar e instalar novamente',negativo
+'unidade inválida, dae não consigo entrar',negativo
+'urgência é pra isso que serve app bancários',negativo
+'uso cada vez menos',negativo
+'uso por alguns dias e novamente bloqueia',negativo
+'usuário não pode logar nesse canal',negativo
+'vai ser resolvido em quanto tempo',negativo
+'valor indevido',negativo
+'valor totalmente indevido',negativo
+'vc digita a senha e clica em ok no teclado do celular aí fica carregando mas não entra para de carregar aí só fica na tela da senha',negativo
+'vcs precisam atualizar o app',negativo
+'vem piorando com o tempo',negativo
+'vive dando problema',negativo
+'vive pedindo atualização',negativo
+'voce tenta digitar e nao vai',negativo
+'voce tenta digitar no campo e n vai',negativo
+'vocês precisam melhorar isso',negativo
+'vocês têm que arrumar isso, uso o app para pagar fornecedores e receber pagamentos',negativo
+'voces tem que melhorar e muito',negativo
+'voces tem que melhorar',negativo
+'vou cancelar minha conta',negativo
+'vou desinstalar o app e vou abrir uma conta no banco mesmo',negativo
+'vou mudar de banco a conta no banco e dá minha mulher márcia mais quem administra sou eu',negativo
+'vou mudar de banco',negativo
+'5 anos',neutro
+'agilidade é muito importante',neutro
+'alguém pode me ajudar',neutro
+'app do sicredi',neutro
+'boa noite',neutro
+'boa tarde',neutro
+'bom dia',neutro
+'como eu faço para me cadastrar',neutro
+'como faço pra abrir uma conta salário',neutro
+'como faço pra aumentar o limite de transação sem ir a agencia',neutro
+'como resolver',neutro
+'curioso para saber quais são os novos requisitos',neutro
+'da nnao sei estou baixando',neutro
+'depois de quanto tempo pode preencher uma nova proposta',neutro
+'depois irei rever meu comentário',neutro
+'deus',neutro
+'entrei em contato com o email do app',neutro
+'estou na última versão do android',neutro
+'eu queria saber se tem como fazer transferências para outros bancos minha conta é poupança',neutro
+'existe previsão para se poder utilizar dos serviços samsung pay',neutro
+'fechei minha conta à algum tempo e quero reabrir',neutro
+'gente eu ainda nao sei usar o app,alguém poderia me explicar como eu consigo ver a data de vencimento da minha fatura',neutro
+'gente que coopera cresce',neutro
+'gostaria de saber como consultar conta poupança',neutro
+'gostaria de saber quando vai estar disponível para pedir aqui em recife pernambuco',neutro
+'gostaria de saber se o estado pi está disponível para abertura da conta',neutro
+'já é a segunda vez',neutro
+'liberem e volto e dou 5 estrelas',neutro
+'nada a concluir',neutro
+'nada a opinar',neutro
+'não tenho outros',neutro
+'necessário',neutro
+'o aplicativo é bom, mas para pagamento o leitor ótico é fraco',neutro
+'o app net empresa do bradesco já possui essa função',neutro
+'ola como faço pra cadastrar a senha para entrar no app',neutro
+'olá',neutro
+'parece bom,mas sera que posso abrir mesmo tendo vinculo com outros bancos?e a conta e agencia e o codigo de compensação e o mesmo do sicredi',neutro
+'quando a conta é cancelada pelo cliente e um dia quiser reabrir a conta pode',neutro
+'quanto tempo depois do cancelamento pode reabrir',neutro
+'quem é o responsável por isso',neutro
+'quem que pode arrumar isso',neutro
+'se for positivo eu vou abrir uma conta',neutro
+'se puderem me ajudar com isso agradeço',neutro
+'só tenho uma linha de produtos com o banco',neutro
+'sugiro uma maneira de atualização automática que não ocorra exclusão dos dados',neutro
+'te aviso',neutro
+'tem como acessar poupança pelo app?',neutro
+'tentem fazer a opção de ver o extrato, aí dou 5 estrelas',neutro
+'tentem fazer a opção de, aí dou 5 estrelas',neutro
+'tentem fazer na próxima atualização, aí dou 5 estrelas',neutro
+'volto e dou cinco estrelas',neutro
+'vou baixar vamos ver se for bom e liberar limite pra mim eu dou mais estrelas',neutro
+':)',positivo
+':)',positivo
+':|',positivo
+':d',positivo
+':p',positivo
+'#recomendo',positivo
+'❤',positivo
+'👍',positivo
+'3 anos cooperando com o sicredi ❤',positivo
+'4 anos cooperando ❤',positivo
+'5 anos cooperando',positivo
+'acho ser a melhor opção',positivo
+'acredito ao meu ver melhor opção',positivo
+'adorei muito bom',positivo
+'adorei',positivo
+'adorei',positivo
+'adoro esse app, nunca me deu problema e consigo fazer todas minhas transaçoes por ele',positivo
+'adoro esse app',positivo
+'adoro esse app',positivo
+'adoro',positivo
+'agências de rápido e bom atendimento',positivo
+'agora está ok',positivo
+'agora sim ficou muito bom o aplicativo funciona rápido e com muitas opções cada dia mais estão melhorando o aplicativo',positivo
+'agora sim ficou muito bom',positivo
+'agradeço',positivo
+'ainda conto com uma super equipe do sicredi',positivo
+'ainda conto com uma super equipe',positivo
+'ajuda muito no dia dia',positivo
+'amando demais nota 1.000 milllll',positivo
+'amando demais nota mil',positivo
+'amando demais',positivo
+'amando nota mil',positivo
+'amando',positivo
+'ameei',positivo
+'amo esse app',positivo
+'amo muito',positivo
+'anderson sheick muito bom',positivo
+'aplicativo bom',positivo
+'aplicativo bom',positivo
+'aplicativo excelente',positivo
+'aplicativo melhorado , obrigado pelo atendimento',positivo
+'aplicativo muito bom, atende a todas as necessidades e o pessoal do desenvolvimento está de parabéns',positivo
+'aplicativo ótimo, faço tudo oque preciso',positivo
+'aplicativo ótimo',positivo
+'aplicativo que não para de melhorar',positivo
+'app bem funcional um dos melhores do mercado agradeço',positivo
+'app é bom',positivo
+'app excelente',positivo
+'app excelente',positivo
+'app milll',positivo
+'app muito bom e bastante prático',positivo
+'app muito fácil de manusear',positivo
+'app muito prático, facilita muito a vida',positivo
+'app muito prático',positivo
+'app muito simples, bom de usar',positivo
+'app muito simples',positivo
+'app muito top',positivo
+'app muito útil',positivo
+'app ótimo para quem não tem muito tempo para ir para a agência do sicredi',positivo
+'app ótimo para quem não tem muito tempo',positivo
+'app ótimo, assim como a cooperativa como todo',positivo
+'app ótimo',positivo
+'app prático e eficaz',positivo
+'as funcionalidades que testei está tudo ok',positivo
+'assistência muito boa',positivo
+'ate agora satisfatório',positivo
+'até que em fim',positivo
+'atende todas as minhas necessidades financeiras',positivo
+'atendimento excelente',positivo
+'atendimento excelente',positivo
+'atendimento muito bom',positivo
+'atendimento perfeito',positivo
+'atendimento satisfatório',positivo
+'atualizaram e ficou muito bom',positivo
+'baixem e abra sua conta',positivo
+'bastante prático',positivo
+'beleza',positivo
+'belo design, boas funcionalidades',positivo
+'belo design',positivo
+'bem bom',positivo
+'bem rápido',positivo
+'bem simples',positivo
+'bem util',positivo
+'boa',positivo
+'boas funcionalidades',positivo
+'bom aplicativo',positivo
+'bom app atende bem as nessecidades',positivo
+'bom app',positivo
+'bom de usar',positivo
+'bom muito bom',positivo
+'bom para o associado',positivo
+'bom programa legal muito melhor',positivo
+'bom trabalho',positivo
+'bom, é simples facil de usar',positivo
+'bom',positivo
+'bom',positivo
+'bom',positivo
+'bom',positivo
+'bommmm',positivo
+'boom',positivo
+'c boa',positivo
+'cada dia mais estão melhorando',positivo
+'cartão, cheque especial e empréstimo, tudo isso com facilidade',positivo
+'com a nova atualização, já está funcionando normalmente',positivo
+'com certeza o melhor banco',positivo
+'com este aplicativo acabei com esperar enfrenta filas para pagar minhas contas',positivo
+'com este produto parei de enfrentar filas',positivo
+'comodidade',positivo
+'consigo fazer tudo pelo aplicatvo',positivo
+'consigo fazer tudo que preciso nele',positivo
+'consigo ter controle de minha conta sem precisar ir a agência bancária',positivo
+'consigo ter controle de minha conta',positivo
+'continuar assim',positivo
+'cumpre a contento o objetivo',positivo
+'da hora',positivo
+'de fácil manuseio',positivo
+'demais nota mil',positivo
+'deu todo suporte pra mim',positivo
+'dou 5 estrelas',positivo
+'é 100%',positivo
+'é agil',positivo
+'é bem completo',positivo
+'é bem pratico para o dia a dia',positivo
+'e bom demais',positivo
+'é bom',positivo
+'é bom',positivo
+'é bom',positivo
+'é brincadeira muito simples',positivo
+'é de muita ajuda',positivo
+'é facil de usar',positivo
+'é maravilhoso o app',positivo
+'é muito bom de trabalhar',positivo
+'e muito bom',positivo
+'é muito bom',positivo
+'e muito legal ter o app do seu banco',positivo
+'é muito prático',positivo
+'é ótimo o app',positivo
+'é otimo',positivo
+'é perfeito',positivo
+'e prático de usar e bonito , eu gostei , cartão de débito chama muito atenção, muita gente elogiou',positivo
+'e se for mesmo zero anuidade , ótimo',positivo
+'é um bom aplicativo',positivo
+'é uma mão na roda',positivo
+'eficiência',positivo
+'eficiente',positivo
+'ele é bom',positivo
+'ele me ajuda muito',positivo
+'ele me auxilia muito',positivo
+'ele simplifica minha vida',positivo
+'eles tiram minhas dúvidas por mensagens, assim não preciso ir até lá',positivo
+'essa última atualização ficou muito boa',positivo
+'essa última versão o uso ficou transparente',positivo
+'está ficando cada dia mais bom',positivo
+'está muito bem elaborado seria elementos, visual minimalista, fácil acesso e compressão das informações',positivo
+'está muito bem elaborado',positivo
+'está tudo ótimo',positivo
+'estao de parabéns',positivo
+'estou 100% satisfeito com os serviços e atendimento de vcs meus parabéns',positivo
+'estou muito satisfeita com o serviço',positivo
+'estou satisfeito',positivo
+'estrutura excelente',positivo
+'eu adorei esse app',positivo
+'eu amei esse app',positivo
+'eu gostei dele',positivo
+'eu gostei esse app',positivo
+'eu gostei muito do app me ajuda bastante',positivo
+'eu gostei muito',positivo
+'eu gosto esse app',positivo
+'eu nunca tive nenhum tipo de problemas e já uso a mais de três anos',positivo
+'eu recomendo',positivo
+'eu recomendo',positivo
+'eu uso pra tudo esse app',positivo
+'evita filas',positivo
+'excelente aplicativo para facilitar a nossa vida',positivo
+'excelente aplicativo, e muito prático de utilizar no dia dia',positivo
+'excelente aplicativo',positivo
+'excelente aplicativo',positivo
+'excelente aplicativo',positivo
+'excelente app, tem tudo que precisa, consigo fazer tudo que preciso nele, simples que até um macaco consegue utilizar nota mil',positivo
+'excelente app',positivo
+'excelente app',positivo
+'excelente esse aplicativo',positivo
+'excelente funciona muito bem no meu',positivo
+'excelente muito bom',positivo
+'excelente opção para fazer as transações bancarias sem fila de espera',positivo
+'excelente opção',positivo
+'excelente, muito prático e intuitivo',positivo
+'excelente, utilizo muito',positivo
+'excelente',positivo
+'excelente',positivo
+'excelente',positivo
+'excelente',positivo
+'excelente',positivo
+'excelente',positivo
+'excelente',positivo
+'fácil acesso',positivo
+'fácil acesso',positivo
+'fácil de acessar e simples de usar',positivo
+'fácil de acessar',positivo
+'fácil de usar',positivo
+'fácil e prático',positivo
+'fácil manuseio',positivo
+'facilidade gostei muito do app me facilita muito a vida controlo toda minha conta atraves do app',positivo
+'facilita a vida corrida da gente',positivo
+'facilita bastante o controle da minha conta',positivo
+'facilita bastante',positivo
+'facilita muito a vida',positivo
+'facilita muito o dia dia',positivo
+'facilitou minha vida🤗',positivo
+'faço meus pagamentos sem problemas',positivo
+'faço tudo o q preciso',positivo
+'faço tudo sem problemas',positivo
+'falando sério uma experiência surpreendente',positivo
+'fantástico',positivo
+'favorável',positivo
+'faz seu papel de forma satisfatória',positivo
+'faz seu papel',positivo
+'felicita muito a minha vida',positivo
+'fico tranquilo c a minha conta',positivo
+'ficou mais fácil de fazer todas as consultas e ações no aplicativo',positivo
+'ficou melhor',positivo
+'ficou muito bom',positivo
+'ficou muito prático',positivo
+'ficou otimo',positivo
+'ficou ótimo',positivo
+'funciona bem',positivo
+'funciona como o esperado',positivo
+'funciona muito bem',positivo
+'funciona muito bem',positivo
+'funciona rápido e com muitas opções',positivo
+'funcional e objetivo',positivo
+'gostei é bem útil',positivo
+'gostei muito satisfatório',positivo
+'gostei muito',positivo
+'gostei simples e eficiente',positivo
+'gostei',positivo
+'gosto do aplicativo facilita bastante o controle da minha conta',positivo
+'gosto do aplicativo',positivo
+'gosto do app (:',positivo
+'gosto muito do aplicativo',positivo
+'gosto muito do aplicativo',positivo
+'gosto muito, pois posso fazer tudo direto de casa, muito fácil de usar',positivo
+'gosto muito',positivo
+'gosto',positivo
+'grato',positivo
+'interação perfeita',positivo
+'intuitivo',positivo
+'intuitivo',positivo
+'já é ótimo assim',positivo
+'joia',positivo
+'júlio césar ótimo banco tem tudo que eu preciso',positivo
+'mara',positivo
+'mas ansioso na expectativa da sua chegada',positivo
+'mas vale mto baixar',positivo
+'me ajuda bastante',positivo
+'me deu todo o suporte pra mim quanto micro empreendedor',positivo
+'me deu todo o suporte',positivo
+'melhor app para se utilizar, rápido, prático e sempre evoluindo',positivo
+'melhor banco, melhor segurança para seus clientes, respeito e atendimento perfeito',positivo
+'melhor banco',positivo
+'melhor para se utilizar',positivo
+'melhor segurança para seus clientes',positivo
+'melhorou bastante',positivo
+'melhorou muito',positivo
+'melhorou',positivo
+'mes satisfaz',positivo
+'mt bom',positivo
+'muito aproveitado',positivo
+'muito atenciosa',positivo
+'muito atencioso',positivo
+'muito bom 10',positivo
+'muito bom aplicativo',positivo
+'muito bom aplicativo',positivo
+'muito bom apo',positivo
+'muito bom até que em fim',positivo
+'muito bom consigo acompanhar a movimentação da sem ter q ficar indo sempre na agência bancária',positivo
+'muito bom consigo fazer tudo pelo aplicatvo',positivo
+'muito bom e pratico recomendo',positivo
+'muito bom e pratico',positivo
+'muito bom esse ap melhor app de banco',positivo
+'muito bom esse aplicativo',positivo
+'muito bom esse apricativo',positivo
+'muito bom esse banco',positivo
+'muito bom esse',positivo
+'muito bom este app',positivo
+'muito bom eu gosto dele',positivo
+'muito bom informativo completo',positivo
+'muito bom o app',positivo
+'muito bom o app',positivo
+'muito bom pratico e facil',positivo
+'muito bom prático',positivo
+'muito bom sicredi é ótimo',positivo
+'muito bom útil no dia a dia',positivo
+'muito bom, bem util',positivo
+'muito bom, rápido prático com certeza o melhor banco agências de rápido e bom atendimento pouco tempo de espera em fila amo muito 3 anos cooperando com o sicredi',positivo
+'muito bom, raramente preciso ir à agência',positivo
+'muito bom',positivo
+'muito bom',positivo
+'muito bom',positivo
+'muito bom',positivo
+'muito bom',positivo
+'muito bom',positivo
+'muito bom',positivo
+'muito bom',positivo
+'muito bom',positivo
+'muito bon pra ver come que ta a conta da gente adorei o aplicativo',positivo
+'muito eficiente, atende minhas necessidades',positivo
+'muito eficiente',positivo
+'muito fácil de usar',positivo
+'muito fácil e pratico',positivo
+'muito legal',positivo
+'muito melhor que de muitos bancos por aí',positivo
+'muito obg pela confiança vou usar com responsabilidade o cartão do crédito fácil vão me ajudar e muito',positivo
+'muito perfeito',positivo
+'muito power da pra mim resolver tudo sobre minha conta por ele',positivo
+'muito pratico e facil',positivo
+'muito pratico e facilita a vida',positivo
+'muito pratico',positivo
+'muito prático',positivo
+'muito prático',positivo
+'muito satisfatório',positivo
+'muito satisfatório',positivo
+'muito top eu recomendo muito bom',positivo
+'muito top',positivo
+'muito útil e prático',positivo
+'muito útil no uso no diário',positivo
+'muito util',positivo
+'muito útil',positivo
+'muito útil',positivo
+'nada a reclamar',positivo
+'nao funciona bem',positivo
+'não precisa ir na agência quando troca o celular',positivo
+'não preciso ir à cooperativa',positivo
+'nota 10',positivo
+'nota 10',positivo
+'nota 10',positivo
+'nota 1000',positivo
+'nota cem',positivo
+'nota dez',positivo
+'nota mil',positivo
+'nota mil',positivo
+'nota mil',positivo
+'nunca me deu problema',positivo
+'nunca tive problemas',positivo
+'o aplicativo de voces é um ótimo exemplo a se seguir',positivo
+'o aplicativo é bom',positivo
+'o aplicativo é muito bom mesmo',positivo
+'o aplicativo e ótima se alguem estiver com dificuldade e pq o cel e ruim ou a conexao',positivo
+'o aplicativo é ótimo',positivo
+'o aplicativo é ótimo',positivo
+'o aplicativo é ótimo',positivo
+'o aplicativo tem me atendido mt bem, e a cooperativa e ótima, super indico',positivo
+'o app e otimo e assim como o banco juntamante com a grande equipe que colabora parabens',positivo
+'o app é ótimo e faz seu papel de forma satisfatória',positivo
+'o app e ótimo realmente fácil de usar e o que realmente precisa está no app',positivo
+'o app e ótimo realmente',positivo
+'o app e otimo',positivo
+'o app é ótimo',positivo
+'o app em sí é uma ferramenta fácil de usar p/ quem quer consultar o saldo da conta corrente, e fazer alguma transação',positivo
+'o app sempre funciona bem',positivo
+'o app sempre funcionou bem',positivo
+'o atendimento via chat é de primeiro mundo',positivo
+'o design é superior',positivo
+'o design visual e de navegação é superior',positivo
+'o estorno do cartao de credito agora está bem melhor',positivo
+'o futuro do nosso país, estrutura excelente',positivo
+'o gerente então, sempre super atencioso',positivo
+'o gerente sempre atencioso',positivo
+'o layout ficou mt bom',positivo
+'o produto de voces é superior',positivo
+'o produto é 100%',positivo
+'o que os bancos tradicionais não me deram em anos vcs me deram em apenas 1 mês de relacionamento valeu obg no…',positivo
+'o que realmente precisa está no app',positivo
+'o restante funciona muito bem',positivo
+'o resto é ótimo',positivo
+'obrigada',positivo
+'obrigado pela agilidade',positivo
+'obrigado',positivo
+'obrigado',positivo
+'obrigado',positivo
+'ok',positivo
+'ok',positivo
+'ótima cooperativa recomendo',positivo
+'ótima',positivo
+'ótimo ap',positivo
+'ótimo aplicativo financeiro',positivo
+'ótimo aplicativo, atende minhas necessidades',positivo
+'ótimo aplicativo, faço meus pagamentos sem problemas, ficou muito prático',positivo
+'ótimo aplicativo, melhorando isso ficará 100%',positivo
+'ótimo aplicativo, o melhor até agora que já vi',positivo
+'ótimo aplicativo, permite acompanhamento de sua conta e ajuda no planejamento financeiro',positivo
+'ótimo aplicativo',positivo
+'ótimo aplicativo',positivo
+'ótimo aplicativo',positivo
+'ótimo aplicativo',positivo
+'otimo app',positivo
+'ótimo app',positivo
+'ótimo app',positivo
+'ótimo banco',positivo
+'ótimo é muito bom',positivo
+'otimo facilita mto e é rápido',positivo
+'ótimo gostei',positivo
+'otimo juntamante com a grande equipe que colabora',positivo
+'ótimo o aplicativo',positivo
+'ótimo recomendo',positivo
+'otimo sem comparaçao',positivo
+'ótimo super pratico',positivo
+'otimo tanto o aplicativo quanto a cooperativa',positivo
+'ótimo trabalho',positivo
+'ótimo, aplicativo para o pagamento de boletos',positivo
+'otimo',positivo
+'ótimo',positivo
+'ótimo',positivo
+'para mim está ótimo felicita muito a minha vida',positivo
+'para mim está ótimo',positivo
+'parabéns a todos',positivo
+'parabéns pelo desempenho',positivo
+'parabéns pelo ótimo trabalho',positivo
+'parabéns pelo trabalho',positivo
+'parabéns',positivo
+'parabéns',positivo
+'parabéns',positivo
+'perfeito, amei, consigo ver extratos, perfeitooo',positivo
+'perfeito',positivo
+'por telefone eles só faltam vir na sua casa e ajudar a lavar o carro',positivo
+'posso fazer tudo direto de casa, muito fácil de usar',positivo
+'pouco tempo de espera em fila',positivo
+'pra mim está bom faço tudo oq preciso pelo aplicativo',positivo
+'pra mim está ok',positivo
+'praticidade..isso que não uso todos os recursos',positivo
+'prático e facil de usar',positivo
+'prático e rápido para ajudar no dia a dia',positivo
+'prático e sempre evoluindo',positivo
+'pratico',positivo
+'prático',positivo
+'prático',positivo
+'presta atendimento satisfatório',positivo
+'produto de voces é ótimo',positivo
+'qualidade superior a todos os outros',positivo
+'quando dinheiro é devolvido já é abatido o valor da compra nas parcelas, bem melhor mesmo do que receber o valor integral e depois continuar pagando',positivo
+'quase perfeito',positivo
+'rápido e prático',positivo
+'rápido',positivo
+'raramente preciso ir à agência, resolvo tudo por aqui.e ainda conto com uma super equipe do sicred de são pedro do iguaçu',positivo
+'raramente preciso ir à agência',positivo
+'realmente fácil de usar',positivo
+'recomendo que a minha conta fica segura',positivo
+'recomendo',positivo
+'recomendo',positivo
+'resolve minha vida',positivo
+'resolvo tudo por aqui e ainda conto com uma super equipe do sicred de são pedro do iguaçu',positivo
+'resolvo tudo por aqui parabéns aos desenvolvedores',positivo
+'resolvo tudo por aqui',positivo
+'respeito e atendimento perfeito',positivo
+'satisfação total',positivo
+'satisfatório',positivo
+'satisfaz as minhas necessidades',positivo
+'satisfeito não tenho o q reclamar app voando no meu tablet e funcionando perfeitamente cooperativa de parabéns',positivo
+'se abrir cooperativa podem me convidar para fazer parte',positivo
+'se tiver a opção de ver extrato, aí dou 5 estrelas',positivo
+'sempre atenciosa',positivo
+'sempre atencioso',positivo
+'sempre consigo resolver',positivo
+'sempre evoluindo',positivo
+'sempre me ajuda',positivo
+'sempre melhorando',positivo
+'sempre supriu as necessidades',positivo
+'show de bola',positivo
+'show de bola',positivo
+'show',positivo
+'simples de usar',positivo
+'simples de utilizar',positivo
+'simples e objetivo',positivo
+'simples e versátil',positivo
+'simples que até um macaco consegue utilizar',positivo
+'simples, fácil e seguro',positivo
+'simples, objetivo e de fácil manuseio',positivo
+'simplesmente maravilhoso',positivo
+'super fácil e rápido',positivo
+'super fácil',positivo
+'super indico',positivo
+'tá ótimo',positivo
+'tem evoluído muito mesmo',positivo
+'tem muita qualidade',positivo
+'tem o que eu preciso',positivo
+'tem qualidade muito superior',positivo
+'tem qualidade',positivo
+'tem se mostrado um banco ótimo até agora',positivo
+'tem tudo o que preciso',positivo
+'tem tudo que precisa',positivo
+'tenho compressão das informações',positivo
+'the best',positivo
+'tô começando agora mais já me deram boas recomendações',positivo
+'top demais',positivo
+'top demais',positivo
+'top ok',positivo
+'top rápido e seguro',positivo
+'top',positivo
+'top',positivo
+'top',positivo
+'top',positivo
+'top',positivo
+'toppppp.amei esse ao muito bom meu cartão já chegou e estou muito contente com essa empresa parabéns',positivo
+'traz algumas funcionalidades únicas',positivo
+'tudo perfeito',positivo
+'tudo prático e rápido',positivo
+'tudo prático',positivo
+'tudo que eu preciso',positivo
+'tudo rápido',positivo
+'um bom app, presta um atendimento satisfatório',positivo
+'um bom app',positivo
+'um dos melhores apps bancários que já usei',positivo
+'um dos melhores apps que usei',positivo
+'um dos melhores apps',positivo
+'um dos melhores do mercado',positivo
+'um dos melhores que já usei',positivo
+'uma super equipe',positivo
+'uso muito esse app',positivo
+'uso muito no meu dia a dia',positivo
+'vale a pena entrar pelo site',positivo
+'vem melhorando a cada atualização',positivo
+'vem melhorando com o tempo',positivo
+'visual minimalista',positivo
+'voces sao melhores',positivo
+'voces tem o que precisa',positivo
+'vou dar 5 estrelas',positivo
