@@ -1,24 +1,27 @@
 var natural = require('natural');
-var naturalAgressiveTokenizer = new natural.AggressiveTokenizerPt();
-var porterStemmerPt = natural.PorterStemmerPt;
-var sentimentClassifier = new natural.BayesClassifier(porterStemmerPt);
+var sentiment = require('sentiment-ptbr');
 
-var dadosKlein = require('../dataset/frases-merge-klein');
-var dadosEdu = require('../dataset/frases-full');
+var comentariosCompletos = require('../dataset/comentarios/completo-json');
+var comentariosParciais = require('../dataset/comentarios/parcial-json');
+var afinn = require("../dataset/afinn/afinn-obj");
 
-function tokenizar(text) {
-    return (!text) ? [] : naturalAgressiveTokenizer.tokenize(text.toString());
+var tokenizador = new natural.AggressiveTokenizerPt();
+var stemizador = natural.PorterStemmerPt;
+var classificador = new natural.BayesClassifier(stemizador);
+
+function tokenizar(texto) {
+    return (!texto) ? [] : tokenizador.tokenize(texto.toString());
 }
 
-function extrairMorfema(tokens) {
+function extrairMorfemas(tokens) {
     var morfemas = [];
 
     if (!tokens) {
-        return morfemas
-    };
+        return morfemas;
+    }
 
-    tokens.forEach(element => {
-        var morfema = porterStemmerPt.stem(element);
+    tokens.forEach(tkn => {
+        var morfema = stemizador.stem(tkn);
         if (morfema && morfema.length > 1) {
             morfemas.push(morfema);
         }
@@ -27,60 +30,50 @@ function extrairMorfema(tokens) {
     return morfemas;
 }
 
-function treinar(evaluations) {
-    if (!Array.isArray(evaluations)) {
-        return
-    };
+function getMorfema(palavra) {
+    var morfema = stemizador.stem(palavra);
+    return (morfema.length > 1) ? morfema : palavra;
+}
 
-    evaluations.forEach(element => {
-        sentimentClassifier.addDocument(extrairMorfema(tokenizar(element.texto)), element.sentimento);
+function treinar(massaCompleta) {
+    var publicacoes = massaCompleta ? comentariosCompletos : comentariosParciais;
+
+    publicacoes.forEach(avaliacao => {
+        classificador
+            .addDocument(
+                extrairMorfemas(
+                    tokenizar(avaliacao.texto)), avaliacao.sentimento);
     });
 
-    sentimentClassifier.train();
+    classificador.train();
 }
 
 function classificar(input) {
-    return (!input) ? null : {
-        texto: input,
-        sentimento: sentimentClassifier.classify(input)
-    }
+    return {
+        sentimento: classificador.classify(input || ""),
+        texto: input
+    };
 }
 
-function init() {
-
-    // treinar(dadosEdu);
-    treinar(dadosKlein);
-    // treinar(dadosEdu);
-
-    var resultados = [];
-    var terms = [
-        'Não consigo efetuar pagamentos',
-        'Não lê codigo de barras',
-        'Não achei bom',
-        'Não consigo transferir',
-        'pra ficar ruim precisa melhorar muito',
-        'Poderia ter opção de pagar com PayPal',
-        'O aplicativo está com cores bem favoráveis',
-        'App trava',
-        'Gostei do aplicativo',
-        'tá bem bom',
-        'eu amo, uso sempre',
-        'Muito boa a nova área de credito',
-        'antes era ruim, agora tá bom',
-    ];
-
-    terms.forEach(term => {
-        var text = tokenizar(term);
-        text = extrairMorfema(text);
-        resultados.push(classificar(text));
-    });
-
-    resultados.map(x => {
-        x.texto = x.texto.join(' ');
-        return x;
-    });
-
-    console.log(resultados);
+function analisarSentimento(frase, stemizarAfinn) {
+    var lista = (stemizarAfinn) ? getAfinnStemizado(): afinn;
+    return sentiment(frase, lista);
 }
 
-// init();
+function getAfinnStemizado() {
+    var stemizado = {};
+    var keys = Object.keys(afinn);
+    keys.forEach(palavra => {
+        stemizado[stemizador.stem(palavra)] = afinn[palavra];
+    });
+    return stemizado;
+}
+
+// Acesso público
+this.tokenizar = tokenizar;
+this.extrairMorfemas = extrairMorfemas;
+this.getMorfema = getMorfema;
+this.treinar = treinar;
+this.classificar = classificar;
+this.analisarSentimento = analisarSentimento;
+module.exports = this;
