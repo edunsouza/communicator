@@ -1,13 +1,19 @@
-var natural = require('natural');
-var sentiment = require('sentiment-ptbr');
+var Natural = require('natural');
+var Sentiment = require('sentiment-ptbr');
+var StopWord = require('stopword');
+const STOPWORDS_BR = require('../dataset/dados/stopwords-br');
 
-var comentariosCompletos = require('../dataset/comentarios/completo-json');
-var comentariosParciais = require('../dataset/comentarios/parcial-json');
-var afinn = require("../dataset/afinn/afinn-obj");
+var Util = require('../helpers/Util');
 
-var tokenizador = new natural.AggressiveTokenizerPt();
-var stemizador = natural.PorterStemmerPt;
-var classificador = new natural.BayesClassifier(stemizador);
+const parcial = require('../dataset/comentarios/parcial-json');
+const comentarios = require('../dataset/comentarios/completo-json');
+const datasetFull = require('../dataset/dados/dataset');
+const afinnArray = require("../dataset/afinn/afinn");
+const afinnObj = require("../dataset/afinn/afinn-obj");
+
+var tokenizador = new Natural.AggressiveTokenizerPt();
+var stemizador = Natural.PorterStemmerPt;
+var classificador = new Natural.BayesClassifier(stemizador);
 
 function tokenizar(texto) {
     return (!texto) ? [] : tokenizador.tokenize(texto.toString());
@@ -35,39 +41,47 @@ function getMorfema(palavra) {
     return (morfema.length > 1) ? morfema : palavra;
 }
 
-function treinar(massaCompleta) {
-    var publicacoes = massaCompleta ? comentariosCompletos : comentariosParciais;
+function removerPalavrasVazias(frase) {
+    return StopWord.removeStopwords(frase.split(' '), STOPWORDS_BR).join(' ');
+}
+
+function treinar() {
+    var publicacoes = Util.embaralhar(comentarios);
 
     publicacoes.forEach(avaliacao => {
-        classificador
-            .addDocument(
-                extrairMorfemas(
-                    tokenizar(avaliacao.texto)), avaliacao.sentimento);
+        classificador.addDocument(extrairMorfemas(tokenizar(removerPalavrasVazias(avaliacao.texto))), avaliacao.sentimento);
     });
 
     classificador.train();
 }
 
 function classificar(input) {
-    return {
-        sentimento: classificador.classify(input || ""),
-        texto: input
-    };
+    return classificador.classify(input || "");
 }
 
-function analisarSentimento(frase, stemizarAfinn) {
-    var lista = (stemizarAfinn) ? getAfinnStemizado(): afinn;
-    return sentiment(frase, lista);
+function analisarSentimento(frase) {
+    return Sentiment(frase, getAfinnObjStemizado());
+    // return Sentiment(frase, afinnObj);
 }
 
-function getAfinnStemizado() {
+function getAfinnObjStemizado() {
     var stemizado = {};
-    var keys = Object.keys(afinn);
+    var keys = Object.keys(afinnObj);
     keys.forEach(palavra => {
-        stemizado[stemizador.stem(palavra)] = afinn[palavra];
+        stemizado[stemizador.stem(palavra)] = afinnObj[palavra];
     });
     return stemizado;
 }
+
+function getDataSetParcial() { return parcial; }
+
+function getDataSetCompleto() { return comentarios; }
+
+function getDataSetFull() { return datasetFull; }
+
+function getDataSetAfinn() { return afinnArray; }
+
+function getDataSetAfinnObject() { return afinnObj; }
 
 // Acesso público
 this.tokenizar = tokenizar;
@@ -76,4 +90,11 @@ this.getMorfema = getMorfema;
 this.treinar = treinar;
 this.classificar = classificar;
 this.analisarSentimento = analisarSentimento;
+this.removerPalavrasVazias = removerPalavrasVazias;
+// Datasets
+this.getDataSetParcial = getDataSetParcial;
+this.getDataSetCompleto = getDataSetCompleto;
+this.getDataSetFull = getDataSetFull;
+this.getDataSetAfinn = getDataSetAfinn;
+this.getDataSetAfinnObject = getDataSetAfinnObject;
 module.exports = this;

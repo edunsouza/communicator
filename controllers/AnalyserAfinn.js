@@ -1,14 +1,23 @@
 var Analyser = require('./Analyser');
 
-function getSentimento(texto, stemizarAfinn) {
-    // var texto = "Deveria ser apenas dos associados, mas tomou outro rumo diferente";
-    var frase = Analyser.extrairMorfemas(Analyser.tokenizar(texto)).join(' ');
-    var resultado = Analyser.analisarSentimento(frase, stemizarAfinn);
+var TextoSentimento = require('../models/TextoSentimento');
 
-    return {
-        texto: frase,
-        sentimento: resultado
-    };
+function getSentimento(frases) {
+    var resultado = [];
+
+    frases.forEach(frase => {
+        resultado.push(new TextoSentimento(frase,
+            Analyser.analisarSentimento(
+                Analyser.extrairMorfemas(
+                    Analyser.tokenizar(
+                        Analyser.removerPalavrasVazias(frase)
+                    )
+                ).join(' ')
+            ).words
+        ));
+    });
+
+    return resultado;
 }
 
 module.exports.getSentimento = getSentimento;

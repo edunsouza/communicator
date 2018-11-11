@@ -26,4 +26,9 @@ this.quebrarFrases = function (string) {
         .map(x => x.replace(new RegExp(spcOuTab, global), " "));
 };
 
+this.embaralhar = function (array) {
+	for (var j, x, i = array.length; i; j = parseInt(Math.random() * i), x = array[--i], array[i] = array[j], array[j] = x);
+	return array;
+};
+
 module.export = this;

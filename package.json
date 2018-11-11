@@ -14,8 +14,11 @@
     "express": "^4.16.4",
     "fbgraph": "^1.4.4",
     "jquery": "^3.3.1",
+    "limdu": "^0.9.4",
     "natural": "^0.6.2",
     "pug": "^2.0.3",
-    "sentiment-ptbr": "^1.0.3"
+    "sentiment-ptbr": "^1.0.3",
+    "smallclassifier": "^1.0.1",
+    "stopword": "^0.1.13"
   }
 }
