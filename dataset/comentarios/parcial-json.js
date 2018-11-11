@@ -1068,7 +1068,7 @@ module.exports = [
     { sentimento: -1, texto: 'pediram para aguardar nova atualização' },
     { sentimento: -1, texto: 'pelo menos uma vez cada dias impossibilitado de fazer pagamento' },
     { sentimento: -1, texto: 'penso que tem que ser em tempo real' },
-    { sentimento: -1, texto: 'percimo não tem onde moro empresa fraca tem agência aqui mas não atende a localidade' },
+    { sentimento: -1, texto: 'pessimo não tem onde moro, empresa fraca, tem agência aqui mas não atende a localidade' },
     { sentimento: -1, texto: 'perdi horas' },
     { sentimento: -1, texto: 'persiste o problema' },
     { sentimento: -1, texto: 'pesado' },

@@ -29,21 +29,22 @@ natural.treinar();
 limdu.treinar();
 limdu.treinar();
 small.treinar();
+small.treinar();
 
 console.log("tempo de treino: " + (new Date().getTime() - start) / 1000);
 start = new Date().getTime();
 
 var feelNatural = natural.getSentimento(massaTeste);
 var feelLimdu = limdu.getSentimento(massaTeste);
-// var feelAfinn = afinn.getSentimento(massaTeste);
+var feelAfinn = afinn.getSentimento(massaTeste);
 var feelSmall = small.getSentimento(massaTeste);
 
-// console.log(feelAfinn);
-// console.log("=============================================================");
 console.log(feelNatural);
 console.log("=============================================================");
 console.log(feelLimdu);
 console.log("=============================================================");
 console.log(feelSmall);
+console.log("=============================================================");
+console.log(feelAfinn);
 
 console.log("tempo de execução: " + (new Date().getTime() - start) / 1000);

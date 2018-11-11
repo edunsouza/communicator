@@ -4,12 +4,12 @@ var Analyser = require('./Analyser');
 var TextoSentimento = require('../models/TextoSentimento');
 
 const comentarios = Analyser.getDataSetCompleto();
-const fullDataset = Analyser.getDataSetFull();
+// const fullDataset = Analyser.getDataSetFull();
 
 var classifier = new Classifier();
 
 function treinar() {
-    comentarios.concat(fullDataset).forEach(x => {
+    comentarios.forEach(x => {
         classifier.train(
             Analyser.extrairMorfemas(
                 Analyser.tokenizar(
