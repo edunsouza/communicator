@@ -1,0 +1,1 @@
+// Aqui vão os logs de publicações já analisadas

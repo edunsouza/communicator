@@ -1,5 +1,5 @@
 var Constantes = require('../helpers/Constantes');
-var Facebook  = require('fbgraph');
+// var Facebook  = require('fbgraph');
 
 module.exports = function () {
 
