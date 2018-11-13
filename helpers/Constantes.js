@@ -1,4 +1,4 @@
-var Util = require('./Util');
+const Util = require('./Util');
 
 // Diretórios
 this.ROOT_DIR = Util.fromRoot("");
@@ -9,6 +9,7 @@ this.JS_DIR = Util.fromRoot('/resources/js');
 this.CSS_DIR = Util.fromRoot('/resources/css');
 this.IMG_DIR = Util.fromRoot('/resources/img');
 this.FONTS_DIR = Util.fromRoot('/resources/fonts');
+this.DB_PATH = Util.fromRoot('/db/CacheFacebook.json');
 
 // Views
 this.MAIN_VIEW = "Main";

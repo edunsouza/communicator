@@ -1,28 +1,27 @@
-var Analyser = require('./Analyser');
+const Natural = require('natural');
 
-var TextoSentimento = require('../models/TextoSentimento');
+const Util = require('../helpers/Util');
+const TextoSentimento = require('../models/TextoSentimento');
+// datasets
+var dataset = Util.getDataSetCompleto();
+// var dataset = Util.getDataSetAfinn();
+const classificador = new Natural.BayesClassifier(Natural.PorterStemmerPt);
 
 function treinar() {
-    Analyser.treinar();
+    Util.embaralhar(dataset).forEach(x => {
+        classificador.addDocument(Util.extrairMorfemas(Util.tokenizar(Util.removerPalavrasVazias(x.texto))), x.sentimento);
+    });
+
+    classificador.train();
 }
 
-function getSentimento(frases) {
-    var resultados = [];
-
-    frases.forEach(frase => {
-        resultados.push(new TextoSentimento(frase,
-            Analyser.classificar(
-                Analyser.extrairMorfemas(
-                    Analyser.tokenizar(
-                        Analyser.removerPalavrasVazias(frase)
-                    )
-                )
-            )
-        ));
-    });
-    return resultados;
+function classificar(frase) {
+    return new TextoSentimento(
+        frase,
+        classificador.classify(Util.extrairMorfemas(Util.tokenizar(Util.removerPalavrasVazias(frase))) || '')
+    );
 }
 
 this.treinar = treinar;
-this.getSentimento = getSentimento;
+this.classificar = classificar;
 module.exports = this;

@@ -1,14 +1,15 @@
-var limdu = require('limdu');
+const Limdu = require('limdu');
 
-var Analyser = require('../controllers/Analyser');
-var InputOutput = require('../models/InputOutput');
-var TextoSentimento = require('../models/TextoSentimento');
-const comentarios = Analyser.getDataSetCompleto();
-
-var intentClassifier = new limdu.classifiers.EnhancedClassifier({
-    normalizer: limdu.features.LowerCaseNormalizer,
-    classifierType: limdu.classifiers.multilabel.BinaryRelevance.bind(0, {
-        binaryClassifierType: limdu.classifiers.Winnow.bind(0, {retrain_count: 10})
+const Util = require('../helpers/Util');
+const TextoSentimento = require('../models/TextoSentimento');
+const InputOutput = require('../models/InputOutput');
+// datasets
+var dataset = Util.getDataSetCompleto();
+// var dataset = Util.getDataSetAfinn();
+const classificador = new Limdu.classifiers.EnhancedClassifier({
+    normalizer: Limdu.features.LowerCaseNormalizer,
+    classifierType: Limdu.classifiers.multilabel.BinaryRelevance.bind(0, {
+        binaryClassifierType: Limdu.classifiers.Winnow.bind(0, {retrain_count: 10})
     }),
     featureExtractor: function (input, features) {
         input.split(' ').forEach(function (word) {
@@ -19,31 +20,22 @@ var intentClassifier = new limdu.classifiers.EnhancedClassifier({
 
 function treinar() {
     var massaTeste = [];
-    // parse dataset para formato aceito pelo Limdu
-    comentarios.forEach(x => {
-        var texto = Analyser.extrairMorfemas(
-            Analyser.tokenizar(
-                Analyser.removerPalavrasVazias(x.texto)
-            )
-        ).join(' ');
-        massaTeste.push(new InputOutput(texto, x.sentimento));
-    });
-    intentClassifier.trainBatch(massaTeste);
-}
-
-function getSentimento(frases) {
-    var resultado = [];
-
-    frases.forEach(frase => {
-        var arr = intentClassifier.classify(frase);
-        arr = !arr.length ? [0] : arr.map(x => Number(x) || 0);
-        resultado.push(new TextoSentimento(frase, arr.reduce((x,y) => x+y)));
+    Util.embaralhar(dataset).forEach(x => {
+        massaTeste.push(new InputOutput(
+            Util.extrairMorfemas(Util.tokenizar(Util.removerPalavrasVazias(x.texto))).join(' '),
+            x.sentimento
+        ));
     });
 
-    return resultado;
+    classificador.trainBatch(massaTeste);
 }
 
-// result = result.join().split(',').map(x => Number(x)).reduce((x, y) => x + y);
+function classificar(frase) {
+    var arr = classificador.classify(frase);
+    arr = !arr.length ? [0] : arr.map(x => Number(x) || 0);
+    return new TextoSentimento(frase, arr.reduce((x,y) => x+y));
+}
+
 this.treinar = treinar;
-this.getSentimento = getSentimento;
+this.classificar = classificar;
 module.exports = this;

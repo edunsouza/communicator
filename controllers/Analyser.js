@@ -1,100 +1,37 @@
-var Natural = require('natural');
-var Sentiment = require('sentiment-ptbr');
-var StopWord = require('stopword');
-const STOPWORDS_BR = require('../dataset/dados/stopwords-br');
+const Util = require('../helpers/Util');
 
-var Util = require('../helpers/Util');
+const SmallClassifier = require('./AnalyserSmallClassifier');
+const Limdu = require('./AnalyserLimdu');
+const Natural = require('./AnalyserNatural');
+const Afinn = require('./AnalyserAfinn');
 
-const parcial = require('../dataset/comentarios/parcial-json');
-const comentarios = require('../dataset/comentarios/completo-json');
-const datasetFull = require('../dataset/dados/dataset');
-const afinnArray = require("../dataset/afinn/afinn");
-const afinnObj = require("../dataset/afinn/afinn-obj");
-
-var tokenizador = new Natural.AggressiveTokenizerPt();
-var stemizador = Natural.PorterStemmerPt;
-var classificador = new Natural.BayesClassifier(stemizador);
-
-function tokenizar(texto) {
-    return (!texto) ? [] : tokenizador.tokenize(texto.toString());
+// Interface de análise
+function classificarComSmallClassifier(texto) {
+    return SmallClassifier.classificar(texto);
 }
 
-function extrairMorfemas(tokens) {
-    var morfemas = [];
-
-    if (!tokens) {
-        return morfemas;
-    }
-
-    tokens.forEach(tkn => {
-        var morfema = stemizador.stem(tkn);
-        if (morfema && morfema.length > 1) {
-            morfemas.push(morfema);
-        }
-    });
-
-    return morfemas;
+function classificarComLimdu(texto) {
+    return Limdu.classificar(texto);
 }
 
-function getMorfema(palavra) {
-    var morfema = stemizador.stem(palavra);
-    return (morfema.length > 1) ? morfema : palavra;
+function classificarComNatural(texto) {
+    return Natural.classificar(texto);
 }
 
-function removerPalavrasVazias(frase) {
-    return StopWord.removeStopwords(frase.split(' '), STOPWORDS_BR).join(' ');
+function classificarComAfinn(texto) {
+    return Afinn.classificar(texto);
 }
 
-function treinar() {
-    var publicacoes = Util.embaralhar(comentarios);
+// Analisadores
+this.treinarComSmallClassifier = SmallClassifier.treinar;
+this.classificarComSmallClassifier = classificarComSmallClassifier;
 
-    publicacoes.forEach(avaliacao => {
-        classificador.addDocument(extrairMorfemas(tokenizar(removerPalavrasVazias(avaliacao.texto))), avaliacao.sentimento);
-    });
+this.treinarComLimdu = Limdu.treinar;
+this.classificarComLimdu = classificarComLimdu;
 
-    classificador.train();
-}
+this.treinarComNatural = Natural.treinar;
+this.classificarComNatural = classificarComNatural;
 
-function classificar(input) {
-    return classificador.classify(input || "");
-}
-
-function analisarSentimento(frase) {
-    return Sentiment(frase, getAfinnObjStemizado());
-    // return Sentiment(frase, afinnObj);
-}
-
-function getAfinnObjStemizado() {
-    var stemizado = {};
-    var keys = Object.keys(afinnObj);
-    keys.forEach(palavra => {
-        stemizado[stemizador.stem(palavra)] = afinnObj[palavra];
-    });
-    return stemizado;
-}
-
-function getDataSetParcial() { return parcial; }
-
-function getDataSetCompleto() { return comentarios; }
-
-function getDataSetFull() { return datasetFull; }
-
-function getDataSetAfinn() { return afinnArray; }
-
-function getDataSetAfinnObject() { return afinnObj; }
-
-// Acesso público
-this.tokenizar = tokenizar;
-this.extrairMorfemas = extrairMorfemas;
-this.getMorfema = getMorfema;
-this.treinar = treinar;
-this.classificar = classificar;
-this.analisarSentimento = analisarSentimento;
-this.removerPalavrasVazias = removerPalavrasVazias;
-// Datasets
-this.getDataSetParcial = getDataSetParcial;
-this.getDataSetCompleto = getDataSetCompleto;
-this.getDataSetFull = getDataSetFull;
-this.getDataSetAfinn = getDataSetAfinn;
-this.getDataSetAfinnObject = getDataSetAfinnObject;
+this.treinarComAfinn = Afinn.treinar;
+this.classificarComAfinn = classificarComAfinn;
 module.exports = this;

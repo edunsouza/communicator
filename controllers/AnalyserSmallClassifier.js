@@ -1,39 +1,25 @@
-var Classifier = require('Smallclassifier');
+const SmallClassifier = require('smallclassifier');
 
-var Analyser = require('./Analyser');
-var TextoSentimento = require('../models/TextoSentimento');
-
-const comentarios = Analyser.getDataSetCompleto();
-// const fullDataset = Analyser.getDataSetFull();
-
-var classifier = new Classifier();
+const Util = require('../helpers/Util');
+const TextoSentimento = require('../models/TextoSentimento');
+// datasets
+var dataset = Util.getDataSetCompleto();
+// var dataset = Util.getDataSetAfinn();
+const classificador = new SmallClassifier();
 
 function treinar() {
-    comentarios.forEach(x => {
-        classifier.train(
-            Analyser.extrairMorfemas(
-                Analyser.tokenizar(
-                    Analyser.removerPalavrasVazias(x.texto)
-                )
-            ).join(' '), x.sentimento
-        );
+    Util.embaralhar(dataset).forEach(x => {
+        classificador.train(Util.extrairMorfemas(Util.tokenizar(Util.removerPalavrasVazias(x.texto))).join(' '), x.sentimento);
     });
 }
 
-function getSentimento(frases) {
-    var resultado = [];
-    frases.forEach(frase => {
-        frase = Analyser.extrairMorfemas(
-            Analyser.tokenizar(
-                Analyser.removerPalavrasVazias(frase)
-            )
-        ).join(' ');
-
-        resultado.push(new TextoSentimento(frase, classifier.classify(frase)));
-    });
-    return resultado;
+function classificar(frase) {
+    return new TextoSentimento(
+        frase,
+        classificador.classify(Util.extrairMorfemas(Util.tokenizar(Util.removerPalavrasVazias(frase))).join(' '))
+    );
 }
 
 this.treinar = treinar;
-this.getSentimento = getSentimento;
+this.classificar = classificar;
 module.exports = this;

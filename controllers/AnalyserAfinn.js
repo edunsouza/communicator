@@ -1,23 +1,28 @@
-var Analyser = require('./Analyser');
+const Sentiment = require('sentiment-ptbr');
 
-var TextoSentimento = require('../models/TextoSentimento');
+const Util = require('../helpers/Util');
+const TextoSentimento = require('../models/TextoSentimento');
+// datasets
+var dataset = Util.getDataSetAfinnObject();
+var afinnStemizado = null;
 
-function getSentimento(frases) {
-    var resultado = [];
-
-    frases.forEach(frase => {
-        resultado.push(new TextoSentimento(frase,
-            Analyser.analisarSentimento(
-                Analyser.extrairMorfemas(
-                    Analyser.tokenizar(
-                        Analyser.removerPalavrasVazias(frase)
-                    )
-                ).join(' ')
-            ).words
-        ));
-    });
-
-    return resultado;
+function treinar() {
+    if (afinnStemizado === null) {
+        var stemizado = {};
+        Object.keys(dataset).forEach(palavra => {
+            stemizado[Util.getMorfema(palavra)] = dataset[palavra];
+        });
+        afinnStemizado = Util.embaralhar(stemizado);
+    }
 }
 
-module.exports.getSentimento = getSentimento;
+function classificar(frase) {
+    return new TextoSentimento(
+        frase,
+        Sentiment(Util.extrairMorfemas(Util.tokenizar(Util.removerPalavrasVazias(frase))).join(' '), afinnStemizado).comparative
+    );
+}
+
+this.treinar = treinar;
+this.classificar = classificar;
+module.exports = this;
