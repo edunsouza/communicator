@@ -1,10 +1,11 @@
-var FacebookGraphAPI  = require('fbgraph');
+const FacebookGraphAPI  = require('fbgraph');
 
-var Constantes = require('../helpers/Constantes');
-var Publicacao = require('../models/Publicacao');
+const Util = require('../helpers/Util');
+const Constantes = require('../helpers/Constantes');
+const Publicacao = require('../models/Publicacao');
 
 FacebookGraphAPI.setVersion("3.2");
-FacebookGraphAPI.setAccessToken("???????");
+FacebookGraphAPI.setAccessToken("??");
 
 function publicar(resposta, publicacao, callback) {
 	if (!resposta || !publicacao.id) return;
@@ -21,6 +22,11 @@ function publicar(resposta, publicacao, callback) {
 
 	FacebookGraphAPI.post(`${publicacao.id}/comments`, postagem, function(err, res) {
 
+		if (err) {
+			console.log(err);
+			return;
+		}
+
 		if (cache.length) {
 			cache = cache[0];
 		} else {
@@ -31,8 +37,7 @@ function publicar(resposta, publicacao, callback) {
 		cache.resposta = resposta.toString();
 	
 		Util.salvarCache(cache, Constantes.DB_PATH);
-		console.log(err);
-		console.log(res);
+	
   		callback(res.id);
 	});
 }

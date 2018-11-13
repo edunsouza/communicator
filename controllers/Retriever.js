@@ -1,6 +1,7 @@
 var FacebookGraphAPI  = require('fbgraph');
 
 var Constantes = require('../helpers/Constantes');
+var Publicacao = require('../models/Publicacao');
 
 FacebookGraphAPI.setVersion("3.2");
 FacebookGraphAPI.setAccessToken("??????");
@@ -15,6 +16,11 @@ function getPublicacoes(callback) {
 	}
 
 	FacebookGraphAPI.get(Constantes.FB_PAGE_NICK + '/feed', campos, function(err, res) {
+		if (err) {
+			console.log(err);
+			return;
+		}
+
 		var retorno = [];
 
     	if (res && res.data) {
@@ -23,13 +29,13 @@ function getPublicacoes(callback) {
     				retorno.push(new Publicacao(
 						post.id,
 						post.message,
-						(post.from) ? post.from.name : null)
-					);
+						(post.from) ? post.from.name : null
+					));
     			}
     		});
     	}
 
-    	return retorno;
+    	callback(retorno);
 	});
 }
 

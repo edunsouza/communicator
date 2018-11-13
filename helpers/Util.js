@@ -109,7 +109,8 @@ function getDataSetParcial() {
 }
 
 function getDataSetCompleto() {
-    return completo;
+    // return completo;
+    return [{texto: "asdasd", sentimento: 123},{texto: "asdasd", sentimento: 123}];
 }
 
 function getDataSetFull() {
@@ -121,7 +122,8 @@ function getDataSetAfinn() {
 }
 
 function getDataSetAfinnObject() {
-    return afinnObj;
+    // return afinnObj;
+    return [{texto: "asdasd", sentimento: 123},{texto: "asdasd", sentimento: 123}];
 }
 
 this.fromRoot = fromRoot;
