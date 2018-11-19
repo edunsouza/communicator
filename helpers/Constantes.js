@@ -21,6 +21,8 @@ this.ROTA_DASHBOARD = '/dash';
 
 // Facebook Graph API
 this.FBGRAPH_ACCESS_TOKEN = ""; //definir token de acesso
+this.FBGRAPH_ACCESS_TOKEN = "EAAEMc8DwLbMBACGdqBD1wc9JAHZC61i6DooZAwIAjwoe3EEb3xEzvZAIdbVZAUIsWQYLzIpulLSNhRVKhx799WOkoxu6FXxaOs0IyCHBlXuZC7DNXLlb1vs8g2vQhPERNHGTMDTnzaX33UXQN0yKHxZCgFLIfLcLuqzQjsOzQk29YthTJmCOOZB2U8YwOnEJ4gZD";
+this.API_VERSION = "3.2";
 
 // Facebook
 this.FB_PAGE_NICK = "tccgraphapi";

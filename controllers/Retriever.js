@@ -3,8 +3,8 @@ var FacebookGraphAPI  = require('fbgraph');
 var Constantes = require('../helpers/Constantes');
 var Publicacao = require('../models/Publicacao');
 
-FacebookGraphAPI.setVersion("3.2");
-FacebookGraphAPI.setAccessToken("??????");
+FacebookGraphAPI.setVersion(Constantes.API_VERSION);
+FacebookGraphAPI.setAccessToken(Constantes.FBGRAPH_ACCESS_TOKEN);
 
 function getPublicacoes(callback) {
 	var campos = {

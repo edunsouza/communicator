@@ -1,1 +1,72 @@
-[]
+[
+	{
+		"id": "178679969703904_187597905478777",
+		"texto": "Gostaria de saber se eu posso copiar o tcc?",
+		"usuario": "Cliente",
+		"lida": true,
+		"resposta": "Olá, Cliente!\n        Nós agradecemos por compartilhar seu feedback.\n        Você gostaria de entrar em contato para nos passar mais informações sobre o que está passando?\n        Entre em contato pelo número XXXXX-YYYY.\n        "
+	},
+	{
+		"id": "178679969703904_187593825479185",
+		"texto": "Pessoal reclama, mas eu acho muito bom! É um sistema robusto e sofisticado. Vale a pena.",
+		"usuario": "DCG",
+		"lida": true,
+		"resposta": "Olá, DCG!\n        Ficamos felizes que você tenha compartilhado seu comentário conosco.\n        Nós trabalhamos para que você tenha sempre boas experiências.\n        Não deixe de compartilhar com a gente o que você pensa!"
+	},
+	{
+		"id": "178679969703904_178681496370418",
+		"texto": "Não gostei. Muito lento.",
+		"usuario": "DCG",
+		"lida": true,
+		"resposta": "Olá, DCG!\n        Nós agradecemos por compartilhar seu feedback.\n        Você gostaria de entrar em contato para nos passar mais informações sobre o que está passando?\n        Entre em contato pelo número XXXXX-YYYY.\n        "
+	},
+	{
+		"id": "178679969703904_178719473033287",
+		"texto": "Essa análise de polaridade sentimental não funciona. Muito ruim.",
+		"usuario": "Eduardo Souza",
+		"lida": true,
+		"resposta": "Olá, Eduardo Souza!\n        Primeiramente agradecemos o seu comentário, ele é muito importante para nosso crescimento.\n        Essa não é a experiência que desejamos para nossos clientes.\n        Estamos trabalhando para melhor atender a todos!"
+	},
+	{
+		"id": "178679969703904_187559722149262",
+		"texto": "Programa muito ruim!",
+		"usuario": "Eduardo Souza",
+		"lida": true,
+		"resposta": "Olá, Eduardo Souza!\n        Nós agradecemos por compartilhar seu feedback.\n        Você gostaria de entrar em contato para nos passar mais informações sobre o que está passando?\n        Entre em contato pelo número XXXXX-YYYY.\n        "
+	},
+	{
+		"id": "178679969703904_178724293032805",
+		"texto": "Excelente! Ficou mais rápido.",
+		"usuario": "DCG",
+		"lida": true,
+		"resposta": "Olá, DCG! Agradecemos muito seu comentário.\n        Por favor, nos envie mais informações para que possamos melhorar a cada dia."
+	},
+	{
+		"id": "178679969703904_187595798812321",
+		"texto": "Essa página demorou 5 segundos pra me responder! Absurdo. Péssimo atendimento. Não recomendo pra ninguém",
+		"usuario": "Eduardo Souza",
+		"lida": true,
+		"resposta": "Olá, Eduardo Souza!\n        Primeiramente agradecemos o seu comentário, ele é muito importante para nosso crescimento.\n        Essa não é a experiência que desejamos para nossos clientes.\n        Estamos trabalhando para melhor atender a todos!"
+	},
+	{
+		"id": "178679969703904_187559278815973",
+		"texto": "Esse sistema é péssimo.",
+		"usuario": "Eduardo Souza",
+		"lida": true,
+		"resposta": "Olá, Eduardo Souza!\n        Nós agradecemos por compartilhar seu feedback.\n        Você gostaria de entrar em contato para nos passar mais informações sobre o que está passando?\n        Entre em contato pelo número XXXXX-YYYY.\n        "
+	},
+	{
+		"id": "178679969703904_187621878809713",
+		"texto": "Teste de publicação. Esta mensagem será analisada pelo aplicativo TCC - Graph API",
+		"usuario": "Eduardo Souza",
+		"lida": true,
+		"resposta": "Olá, Eduardo Souza!\n        Ficamos felizes que você tenha compartilhado seu comentário conosco.\n        Nós trabalhamos para que você tenha sempre boas experiências.\n        Não deixe de compartilhar com a gente o que você pensa!"
+	},
+	{
+		"id": "178679969703904_178724406366127",
+		"texto": "Não é tão ruim quanto falam. Mas pode melhorar",
+		"usuario": "Noob College",
+		"lida": true,
+		"resposta": "Olá, Noob College!\n        Nós agradecemos por compartilhar seu feedback.\n        Você gostaria de entrar em contato para nos passar mais informações sobre o que está passando?\n        Entre em contato pelo número XXXXX-YYYY.\n        "
+	}
+]

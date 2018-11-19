@@ -4,8 +4,8 @@ const Util = require('../helpers/Util');
 const Constantes = require('../helpers/Constantes');
 const Publicacao = require('../models/Publicacao');
 
-FacebookGraphAPI.setVersion("3.2");
-FacebookGraphAPI.setAccessToken("??");
+FacebookGraphAPI.setVersion(Constantes.API_VERSION);
+FacebookGraphAPI.setAccessToken(Constantes.FBGRAPH_ACCESS_TOKEN);
 
 function publicar(resposta, publicacao, callback) {
 	if (!resposta || !publicacao.id) return;
