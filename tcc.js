@@ -15,5 +15,5 @@ function ouvir() {
         console.log('Buscando novas publicações');
         Manager.buscarPublicacoes();
         ouvir();
-    }, 5000);
+    }, 10000);
 }
